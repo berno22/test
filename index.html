@@ -181,7 +181,7 @@
           // Load the channels JSON data and split into chunks of 12
       async function loadChannels() {
         const channels = await (await fetch('channels.json')).json();
-        const channelChunks = chunkArray(channels, 12);
+        const channelChunks = chunkArray(channels, 7);
         const channelContainers = document.getElementById('channelContainers');
 
         channelChunks.forEach(channelChunk => {
