@@ -177,25 +177,22 @@
         img.src = srcLink;
       });
 
-          // Load the channels JSON data and split into chunks of 10
+          // Load the channels JSON data and split into chunks of 12
       async function loadChannels() {
-        const response = await fetch('channels.json');
-        const channels = await response.json();
+        const channels = await (await fetch('channels.json')).json();
         const channelChunks = chunkArray(channels, 12);
-
         const channelContainers = document.getElementById('channelContainers');
 
-        for (let i = 0; i < channelChunks.length; i++) {
+        channelChunks.forEach(channelChunk => {
           const channelContainer = document.createElement('div');
           channelContainer.classList.add('icon-container');
 
-          for (let j = 0; j < channelChunks[i].length; j++) {
-            const name = channelChunks[i][j].name;
+          channelChunk.forEach(channel => {
+            const name = channel.name;
 
             const channelLink = document.createElement('a');
             channelLink.style.color = '#33FF6E';
-            channelLink.onclick = () => {
-            };
+            channelLink.onclick = () => {};
 
             const channelImage = document.createElement('img');
             channelImage.src = `https://media.tv4.live/${name}.png`;
@@ -209,10 +206,10 @@
 
             const spacer = document.createTextNode('\u00A0\u00A0');
             channelContainer.appendChild(spacer);
-          }
+          });
 
           channelContainers.appendChild(channelContainer);
-        }
+        });
       }
 
       // Helper function to chunk an array into smaller arrays
