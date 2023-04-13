@@ -12,9 +12,6 @@
     "name": "actionmax.eastern.us"
   },
   {
-    "name": "actionmax.pacific.us"
-  },
-  {
     "name": "adult.swim.east.us"
   },
   {
@@ -57,9 +54,6 @@
     "name": "bet.eastern.us"
   },
   {
-    "name": "bet.pacific.us"
-  },
-  {
     "name": "bet.gospel.us"
   },
   {
@@ -90,16 +84,10 @@
     "name": "bravo.usa.eastern.us"
   },
   {
-    "name": "bravo.usa.pacific.us"
-  },
-  {
     "name": "buzzr.tv.us"
   },
   {
     "name": "cartoon.network.usa.eastern.us"
-  },
-  {
-    "name": "cartoon.network.usa.pacific.us"
   },
   {
     "name": "cbs.eastern.us"
@@ -183,9 +171,6 @@
     "name": "discovery.channel.us.eastern.us"
   },
   {
-    "name": "discovery.channel.pacific.us"
-  },
-  {
     "name": "discovery.family.channel.us"
   },
   {
@@ -196,9 +181,6 @@
   },
   {
     "name": "disney.junior.usa.east.us"
-  },
-  {
-    "name": "disney.xd.usa.pacific.us"
   },
   {
     "name": "disney.xd.usa.eastern.us"
@@ -214,9 +196,6 @@
   },
   {
     "name": "e.entertainment.usa.eastern.us"
-  },
-  {
-    "name": "e.entertainment.usa.pacific.us"
   },
   {
     "name": "el.rey.network.us"
@@ -270,9 +249,6 @@
     "name": "fx.movie.channel.us"
   },
   {
-    "name": "fxpacific.us"
-  },
-  {
     "name": "fx.networks.east.coast.us"
   },
   {
@@ -315,31 +291,16 @@
     "name": "hbo.2.eastern.us"
   },
   {
-    "name": "hbo.2.pacific.us"
-  },
-  {
     "name": "hbo.comedy.east.us"
-  },
-  {
-    "name": "hbo.comedy.pacific.us"
   },
   {
     "name": "hbo.family.eastern.us"
   },
   {
-    "name": "hbo.family.pacific.us"
-  },
-  {
     "name": "hbo.signature.hbo.3.eastern.us"
   },
   {
-    "name": "hbo.signature.hbo.3.pacific.us"
-  },
-  {
     "name": "hbo.zone.east.us"
-  },
-  {
-    "name": "hbo.zone.pacific.us"
   },
   {
     "name": "hdnet.movies.us"
@@ -349,9 +310,6 @@
   },
   {
     "name": "hgtv.usa.eastern.us"
-  },
-  {
-    "name": "hgtv.usa.pacific.us"
   },
   {
     "name": "hillsong.channel.us"
@@ -432,9 +390,6 @@
     "name": "moremax.eastern.us"
   },
   {
-    "name": "moremax.pacific.us"
-  },
-  {
     "name": "motor.trend.us"
   },
   {
@@ -462,9 +417,6 @@
     "name": "mtv.live.us"
   },
   {
-    "name": "mtv.usa.pacific.us"
-  },
-  {
     "name": "music.choice.us"
   },
   {
@@ -483,16 +435,10 @@
     "name": "newsnation.eastern.us"
   },
   {
-    "name": "nhl.network.usa.us"
-  },
-  {
     "name": "nick.jr.us"
   },
   {
     "name": "nickelodeon.usa.east.us"
-  },
-  {
-    "name": "nickelodeon.usa.pacific.us"
   },
   {
     "name": "nickmusic.us"
@@ -514,9 +460,6 @@
   },
   {
     "name": "oxygen.eastern.us"
-  },
-  {
-    "name": "oxygen.pacific.us"
   },
   {
     "name": "paramount.network.usa.eastern.us"
@@ -582,22 +525,10 @@
     "name": "showtime.2.eastern.us"
   },
   {
-    "name": "showtime.2.pacific.us"
-  },
-  {
     "name": "showtime.extreme.eastern.us"
   },
   {
-    "name": "showtime.extreme.pacific.us"
-  },
-  {
     "name": "showtime.family.zone.eastern.us"
-  },
-  {
-    "name": "showtime.family.zone.pacific.us"
-  },
-  {
-    "name": "showtime.next.pacific.us"
   },
   {
     "name": "showtime.next.eastern.us"
@@ -606,13 +537,7 @@
     "name": "showtime.showcase.eastern.us"
   },
   {
-    "name": "showtime.showcase.pacific.us"
-  },
-  {
     "name": "shoxbet.eastern.us"
-  },
-  {
-    "name": "shoxbet.pacific.us"
   },
   {
     "name": "smithsonian.channel.usa.us"
@@ -627,64 +552,31 @@
     "name": "starz.eastern.us"
   },
   {
-    "name": "starz.pacific.us"
-  },
-  {
     "name": "starz.cinema.eastern.us"
-  },
-  {
-    "name": "starz.cinema.pacific.us"
   },
   {
     "name": "starz.comedy.eastern.us"
   },
   {
-    "name": "starz.comedy.pacific.us"
-  },
-  {
     "name": "starz.edge.eastern.us"
-  },
-  {
-    "name": "starz.edge.pacific.us"
   },
   {
     "name": "starz.encore.eastern.us"
   },
   {
-    "name": "starz.encore.pacific.us"
-  },
-  {
     "name": "starz.encore.action.eastern.us"
-  },
-  {
-    "name": "starz.encore.action.pacific.us"
   },
   {
     "name": "starz.encore.black.eastern.us"
   },
   {
-    "name": "starz.encore.black.pacific.us"
-  },
-  {
     "name": "starz.encore.classic.eastern.us"
-  },
-  {
-    "name": "starz.encore.classic.pacific.us"
   },
   {
     "name": "starz.encore.family.eastern.us"
   },
   {
-    "name": "starz.encore.family.pacific.us"
-  },
-  {
-    "name": "starz.encore.suspense.pacific.us"
-  },
-  {
     "name": "starz.in.black.eastern.us"
-  },
-  {
-    "name": "starz.in.black.pacific.us"
   },
   {
     "name": "starz.encore.suspense.eastern.us"
@@ -696,16 +588,10 @@
     "name": "syfy.eastern.us"
   },
   {
-    "name": "syfy.pacific.us"
-  },
-  {
     "name": "tastemade.us"
   },
   {
     "name": "tbs.east.us"
-  },
-  {
-    "name": "tbspacific.us"
   },
   {
     "name": "teen.nick.us"
@@ -732,22 +618,13 @@
     "name": "thrillermax.east.us"
   },
   {
-    "name": "thrillermax.pacific.us"
-  },
-  {
     "name": "tlc.usa.eastern.us"
-  },
-  {
-    "name": "tlc.pacific.us"
   },
   {
     "name": "tmz.us"
   },
   {
     "name": "tnt.east.us"
-  },
-  {
-    "name": "tnt.pacific.us"
   },
   {
     "name": "travel.us.east.us"
@@ -757,9 +634,6 @@
   },
   {
     "name": "trutv.usa.east.us"
-  },
-  {
-    "name": "trutv.pacific.us"
   },
   {
     "name": "tudnxtra.11.us"
@@ -778,9 +652,6 @@
   },
   {
     "name": "usa.network.east.us"
-  },
-  {
-    "name": "usa.network.pacific.us"
   },
   {
     "name": "vh1.eastern.us"
@@ -846,9 +717,6 @@
     "name": "discovery.channel.us.eastern.us"
   },
   {
-    "name": "discovery.channel.pacific.us"
-  },
-  {
     "name": "discovery.family.channel.us"
   },
   {
@@ -895,9 +763,6 @@
   },
   {
     "name": "mtv.classic.east.us"
-  },
-  {
-    "name": "mtv.usa.pacific.us"
   },
   {
     "name": "music.choice.us"
@@ -1209,9 +1074,6 @@
     "name": "new.england.sports.network.us"
   },
   {
-    "name": "nhl.network.usa.us"
-  },
-  {
     "name": "olympic.channel.us"
   },
   {
@@ -1270,9 +1132,6 @@
   },
   {
     "name": "tnt.east.us"
-  },
-  {
-    "name": "tnt.pacific.us"
   },
   {
     "name": "tvg.2.horse.racing.us"
@@ -1680,9 +1539,6 @@
     "name": "altitude.sports.us"
   },
   {
-    "name": "nhl.network.usa.us"
-  },
-  {
     "name": "dazn.2.us"
   },
   {
@@ -1914,12 +1770,6 @@
     "name": "ppv.2.25.us"
   },
   {
-    "name": "ufc.6.us"
-  },
-  {
-    "name": "ufc.9.us"
-  },
-  {
     "name": "fite.tv.9.us"
   },
   {
@@ -1980,12 +1830,6 @@
     "name": "fite.tv.15.us"
   },
   {
-    "name": "ufc.4.us"
-  },
-  {
-    "name": "ufc.5.us"
-  },
-  {
     "name": "ppv.2.3.us"
   },
   {
@@ -1999,81 +1843,6 @@
   },
   {
     "name": "ppv.2.4.us"
-  },
-  {
-    "name": "ufc.8.us"
-  },
-  {
-    "name": "ufc.2.us"
-  },
-  {
-    "name": "ufc.3.us"
-  },
-  {
-    "name": "ufc.1.us"
-  },
-  {
-    "name": "ufc.7.us"
-  },
-  {
-    "name": "ufc.6.us"
-  },
-  {
-    "name": "ufc.9.us"
-  },
-  {
-    "name": "ufc.4.us"
-  },
-  {
-    "name": "ufc.5.us"
-  },
-  {
-    "name": "ufc.8.us"
-  },
-  {
-    "name": "ufc.us"
-  },
-  {
-    "name": "ufc.2.us"
-  },
-  {
-    "name": "ufc.3.us"
-  },
-  {
-    "name": "ufc.1.us"
-  },
-  {
-    "name": "ufc.fightpass.1.us"
-  },
-  {
-    "name": "ufc.fightpass.2.us"
-  },
-  {
-    "name": "ufc.fightpass.3.us"
-  },
-  {
-    "name": "ufc.fightpass.4.us"
-  },
-  {
-    "name": "ufc.fightpass.5.us"
-  },
-  {
-    "name": "ufc.fightpass.6.us"
-  },
-  {
-    "name": "ufc.fightpass.7.us"
-  },
-  {
-    "name": "ufc.fightpass.8.us"
-  },
-  {
-    "name": "ufc.fightpass.9.us"
-  },
-  {
-    "name": "ufc.fightpass.10.us"
-  },
-  {
-    "name": "ufc.7.us"
   },
   {
     "name": "5.star.max.eastern.us"
@@ -2094,9 +1863,6 @@
     "name": "bravo.usa.eastern.us"
   },
   {
-    "name": "bravo.usa.pacific.us"
-  },
-  {
     "name": "cinemax.eastern.us"
   },
   {
@@ -2109,16 +1875,10 @@
     "name": "e.entertainment.usa.eastern.us"
   },
   {
-    "name": "e.entertainment.usa.pacific.us"
-  },
-  {
     "name": "fetv.family.entertainment.television.us"
   },
   {
     "name": "fx.movie.channel.us"
-  },
-  {
-    "name": "fxpacific.us"
   },
   {
     "name": "fx.networks.east.coast.us"
@@ -2139,9 +1899,6 @@
     "name": "hbo.2.eastern.us"
   },
   {
-    "name": "hbo.2.pacific.us"
-  },
-  {
     "name": "hbo.comedy.east.us"
   },
   {
@@ -2155,9 +1912,6 @@
   },
   {
     "name": "hgtv.usa.eastern.us"
-  },
-  {
-    "name": "hgtv.usa.pacific.us"
   },
   {
     "name": "ifc.us"
@@ -2190,22 +1944,10 @@
     "name": "showtime.2.eastern.us"
   },
   {
-    "name": "showtime.2.pacific.us"
-  },
-  {
     "name": "showtime.extreme.eastern.us"
   },
   {
-    "name": "showtime.extreme.pacific.us"
-  },
-  {
     "name": "showtime.family.zone.eastern.us"
-  },
-  {
-    "name": "showtime.family.zone.pacific.us"
-  },
-  {
-    "name": "showtime.next.pacific.us"
   },
   {
     "name": "showtime.next.eastern.us"
@@ -2214,76 +1956,37 @@
     "name": "showtime.showcase.eastern.us"
   },
   {
-    "name": "showtime.showcase.pacific.us"
-  },
-  {
     "name": "shoxbet.eastern.us"
-  },
-  {
-    "name": "shoxbet.pacific.us"
   },
   {
     "name": "starz.eastern.us"
   },
   {
-    "name": "starz.pacific.us"
-  },
-  {
     "name": "starz.cinema.eastern.us"
-  },
-  {
-    "name": "starz.cinema.pacific.us"
   },
   {
     "name": "starz.comedy.eastern.us"
   },
   {
-    "name": "starz.comedy.pacific.us"
-  },
-  {
     "name": "starz.edge.eastern.us"
-  },
-  {
-    "name": "starz.edge.pacific.us"
   },
   {
     "name": "starz.encore.eastern.us"
   },
   {
-    "name": "starz.encore.pacific.us"
-  },
-  {
     "name": "starz.encore.action.eastern.us"
-  },
-  {
-    "name": "starz.encore.action.pacific.us"
   },
   {
     "name": "starz.encore.black.eastern.us"
   },
   {
-    "name": "starz.encore.black.pacific.us"
-  },
-  {
     "name": "starz.encore.classic.eastern.us"
-  },
-  {
-    "name": "starz.encore.classic.pacific.us"
   },
   {
     "name": "starz.encore.family.eastern.us"
   },
   {
-    "name": "starz.encore.family.pacific.us"
-  },
-  {
-    "name": "starz.encore.suspense.pacific.us"
-  },
-  {
     "name": "starz.in.black.eastern.us"
-  },
-  {
-    "name": "starz.in.black.pacific.us"
   },
   {
     "name": "starz.encore.suspense.eastern.us"
@@ -2292,16 +1995,10 @@
     "name": "syfy.eastern.us"
   },
   {
-    "name": "syfy.pacific.us"
-  },
-  {
     "name": "thrillermax.east.us"
   },
   {
     "name": "trutv.usa.east.us"
-  },
-  {
-    "name": "trutv.pacific.us"
   },
   {
     "name": "turner.classic.movies.usa.us"
@@ -2322,9 +2019,6 @@
     "name": "cartoon.network.usa.eastern.us"
   },
   {
-    "name": "cartoon.network.usa.pacific.us"
-  },
-  {
     "name": "disney.eastern.us"
   },
   {
@@ -2338,9 +2032,6 @@
   },
   {
     "name": "nickelodeon.usa.east.us"
-  },
-  {
-    "name": "nickelodeon.usa.pacific.us"
   },
   {
     "name": "nickmusic.us"
