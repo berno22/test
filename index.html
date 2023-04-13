@@ -194,7 +194,7 @@
             channelImage.src = `https://media.tv4.live/${name}.png`;
             channelImage.width = '50';
             channelImage.onclick = () => {
-              selectImage(channelImage);
+              loadChannel(name);
             };
 
             channelLink.appendChild(channelImage);
