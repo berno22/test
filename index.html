@@ -5,14 +5,13 @@
     <script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
     <style>
       body {
-        padding: 25px;
         background-color: black;
         color: white;
         font-size: 15px;
         font-family: Arial, sans-serif;
         display: flex;
         align-items: center;
-        flex-direction: column
+        flex-direction: column;
       }
       .icon-container {
         display: flex;
@@ -28,14 +27,6 @@
         font-size: 35px;
         color: red;
       }
-      #bullet {
-        animation: blink 2s infinite;
-      }
-      @keyframes blink {
-        50% {
-          opacity: 0;
-        }
-      }
       img {
         width: 50px;
         transition: width 0.4s;
@@ -50,134 +41,93 @@
         width: 60vw;
         height: 34vw;
       }
-      #closeFrame {
-        display: none;
-      }
       .video-js .vjs-control-bar {
         height: 0px;
       }
     </style>
   </head>
   <body>
-
     <div class="icon-container">
       <a style="color:#33FF6E;" onclick="loadChannel('qkihgakk.ss')">
         <img src="" width="50" onclick="selectImage(this)">
       </a>
-      &nbsp;
-      &nbsp;
       <a style="color:#33FF6E;" onclick="loadChannel('cnbc.usa.us')">
         <img src="" width="50" onclick="selectImage(this)">
       </a>
-      &nbsp;
-      &nbsp;
       <a style="color:#33FF6E;" onclick="loadChannel('msnbc.usa.us')">
         <img src="" width="50" onclick="selectImage(this)">
       </a>
-      &nbsp;
-      &nbsp;
       <a style="color:#33FF6E;" onclick="loadChannel('cnn.us')">
         <img src="" width="50" onclick="selectImage(this)">
       </a>
-      &nbsp;
-      &nbsp;
       <a style="color:#33FF6E;" onclick="loadChannel('fox.news.us')">
         <img src="" width="50" onclick="selectImage(this)">
       </a>
-      &nbsp;
-      &nbsp;
       <a style="color:#33FF6E;" onclick="loadChannel('bravo.usa.eastern.us')">
         <img src="" width="50" onclick="selectImage(this)">
       </a>
-      &nbsp;
-      &nbsp;
       <a style="color:#33FF6E;" onclick="loadChannel('comedy.central.eastern.us')">
         <img src="" width="50" onclick="selectImage(this)">
       </a>
     </div>
-
     <h2>
       <Text id="closeFrame" onclick="closeFrame()">Live</Text>
       <Text id="bullet"> &bull;</Text>
     </h2>
-
     <video id="myPlayer" class="video-js" controls></video>
-    
     <br>
     <br>
-    
-    <div id="channelContainers">
-      <!-- The channel containers will be added dynamically here -->
-    </div>
-
+    <div id="channelContainers" style="justify-content: space-between; display: flex; flex-direction: column;"></div>
     <script>
-      var selectedImage = null;
-      var baseUrl1 = 'https://tvnow.';
-      var baseUrl2 = 'best/api/stream/';
-      var baseUrl3 = 'justina';
-      var baseUrl4 = 'wachter';
-      var baseUrl5 = '@gmail.com/';
-      var baseUrl6 = '936';
-      var baseUrl7 = '205';
-      var baseUrl8 = '/livetv.epg/';
-      var player = videojs('myPlayer');
+      const baseUrl = 'https://tvnow.best/api/stream/justinawachter@gmail.com/936205/livetv.epg/';
+
+      let selectedImage = null;
+      const player = videojs('myPlayer');
+      const channelContainers = document.getElementById('channelContainers');
 
       function selectImage(img) {
         if (selectedImage) {
-          selectedImage.classList.remove("selected");
+          selectedImage.classList.remove('selected');
         }
-        img.classList.add("selected");
+        img.classList.add('selected');
         selectedImage = img;
       }
 
       function loadChannel(channel) {
-        var url = baseUrl1 + baseUrl2 + baseUrl3 + baseUrl4 + baseUrl5 + baseUrl6 + baseUrl7 + baseUrl8 + channel + '.m3u8';
+        const url = baseUrl + channel + '.m3u8';
         if (url) {
           player.src({
             src: url,
             type: 'application/x-mpegURL'
           });
           player.play();
-          document.getElementById("myPlayer").style.display = "block";
-          document.getElementById("bullet").style.display = "inline";
-          document.getElementById("closeFrame").style.display = "inline";
+          myPlayer.style.display = 'block';
+          bullet.style.display = 'inline';
+          closeFrame.style.display = 'inline';
           window.scrollTo({ top: 0, behavior: 'smooth' });
         } else {
           player.pause();
-          document.getElementById("myPlayer").style.display = "none";
-          document.getElementById("bullet").style.display = "none";
+          myPlayer.style.display = 'none';
+          bullet.style.display = 'none';
         }
       }
 
       function closeFrame() {
         player.pause();
-        player.src("");
-        document.getElementById("myPlayer").style.display = "none";
-        document.getElementById("bullet").style.display = "none";
-        document.getElementById("closeFrame").style.display = "none";
+        player.src('');
+        myPlayer.style.display = 'none';
+        bullet.style.display = 'none';
+        closeFrame.style.display = 'none';
         if (selectedImage) {
-          selectedImage.classList.remove("selected");
+          selectedImage.classList.remove('selected');
           selectedImage = null;
         }
       }
 
-      const channelLinks = document.querySelectorAll('.icon-container a');
-
-      channelLinks.forEach(link => {
-        const onclickValue = link.getAttribute('onclick');
-        const channelName = onclickValue.match(/loadChannel\('(.*)'\)/)[1];
-        const srcLink = `https://media.tv4.live/${channelName}.png`;
-        const img = link.querySelector('img');
-        img.src = srcLink;
-      });
-
-          // Load the channels JSON data and split into chunks of 10
       async function loadChannels() {
         const response = await fetch('channels.json');
         const channels = await response.json();
         const channelChunks = chunkArray(channels, 12);
-
-        const channelContainers = document.getElementById('channelContainers');
 
         for (let i = 0; i < channelChunks.length; i++) {
           const channelContainer = document.createElement('div');
@@ -209,7 +159,6 @@
         }
       }
 
-      // Helper function to chunk an array into smaller arrays
       function chunkArray(array, chunkSize) {
         const chunks = [];
         for (let i = 0; i < array.length; i += chunkSize) {
@@ -218,9 +167,7 @@
         return chunks;
       }
 
-      // Call the loadChannels function to load and display the channels
       loadChannels();
     </script>
   </body>
 </html>
-<!-- https://github.com/videojs/themes/blob/master/city/index.css -->
