@@ -175,7 +175,7 @@
       async function loadChannels() {
         const response = await fetch('channels.json');
         const channels = await response.json();
-        const channelChunks = chunkArray(channels, 10);
+        const channelChunks = chunkArray(channels, 12);
 
         const channelContainers = document.getElementById('channelContainers');
 
