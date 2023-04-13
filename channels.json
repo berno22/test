@@ -288,9 +288,6 @@
     "name": "game.show.network.east.us"
   },
   {
-    "name": "gospel.broadcasting.network.us"
-  },
-  {
     "name": "gettv.us"
   },
   {
@@ -621,9 +618,6 @@
     "name": "smithsonian.channel.usa.us"
   },
   {
-    "name": "sonlife.broadcasting.network.us"
-  },
-  {
     "name": "sony.movies.us"
   },
   {
@@ -706,9 +700,6 @@
   },
   {
     "name": "tastemade.us"
-  },
-  {
-    "name": "tbn.trinity.broadcasting.network.east.us"
   },
   {
     "name": "tbs.east.us"
@@ -823,12 +814,6 @@
   },
   {
     "name": "nbc.universo.eastern.us"
-  },
-  {
-    "name": "news.12.bronx.us"
-  },
-  {
-    "name": "news.12.brooklyn.us"
   },
   {
     "name": "news.12.connecticut.us"
@@ -1633,9 +1618,6 @@
   },
   {
     "name": "nba.boston.celtics.us"
-  },
-  {
-    "name": "nba.brooklyn.nets.us"
   },
   {
     "name": "nba.charlotte.hornets.us"
@@ -2553,262 +2535,7 @@
     "name": "5.usa.uk"
   },
   {
-    "name": "a.e.br"
-  },
-  {
-    "name": "axn.br"
-  },
-  {
-    "name": "band.news.br"
-  },
-  {
-    "name": "band.br"
-  },
-  {
-    "name": "bandsports.br"
-  },
-  {
-    "name": "big.brother.br"
-  },
-  {
-    "name": "boomerang.br"
-  },
-  {
-    "name": "cartoon.network.br"
-  },
-  {
-    "name": "combate.br"
-  },
-  {
-    "name": "discovery.br"
-  },
-  {
-    "name": "discovery.civilization.br"
-  },
-  {
-    "name": "discovery.sciene.br"
-  },
-  {
-    "name": "discovery.turbo.br"
-  },
-  {
-    "name": "disney.br"
-  },
-  {
-    "name": "disney.junior.br"
-  },
-  {
-    "name": "disney.xd.br"
-  },
-  {
-    "name": "ee.br"
-  },
-  {
-    "name": "espn.br"
-  },
-  {
-    "name": "espn.2.br"
-  },
-  {
-    "name": "espn.brasil.br"
-  },
-  {
-    "name": "fishtv.br"
-  },
-  {
-    "name": "food.network.br"
-  },
-  {
-    "name": "fox.br"
-  },
-  {
-    "name": "fox.life.br"
-  },
-  {
-    "name": "fox.sports.br"
-  },
-  {
-    "name": "fox.sports.2.br"
-  },
-  {
-    "name": "fx.br"
-  },
-  {
-    "name": "globo.brasilia.br"
-  },
-  {
-    "name": "globo.minas.br"
-  },
-  {
-    "name": "globo.news.br"
-  },
-  {
-    "name": "globo.nordeste.br"
-  },
-  {
-    "name": "globo.rj.br"
-  },
-  {
-    "name": "globo.sp.br"
-  },
-  {
-    "name": "globosat.br"
-  },
-  {
-    "name": "gloob.br"
-  },
-  {
-    "name": "gnt.br"
-  },
-  {
-    "name": "h2.br"
-  },
-  {
-    "name": "hbo.br"
-  },
-  {
-    "name": "hbo.2.br"
-  },
-  {
-    "name": "hbo.family.br"
-  },
-  {
-    "name": "hbo.plus.br"
-  },
-  {
-    "name": "hbo.signature.br"
-  },
-  {
-    "name": "history.br"
-  },
-  {
-    "name": "investigacao.discovery.br"
-  },
-  {
-    "name": "max.up.br"
-  },
-  {
-    "name": "megapix.br"
-  },
-  {
-    "name": "multishow.br"
-  },
-  {
-    "name": "national.geographic.br"
-  },
-  {
-    "name": "nick.jr.br"
-  },
-  {
-    "name": "nickelodeon.br"
-  },
-  {
-    "name": "off.br"
-  },
-  {
-    "name": "paramount.br"
-  },
-  {
-    "name": "premiere.2.br"
-  },
-  {
-    "name": "premiere.3.br"
-  },
-  {
-    "name": "premiere.4.br"
-  },
-  {
-    "name": "premiere.5.br"
-  },
-  {
-    "name": "premiere.6.br"
-  },
-  {
-    "name": "premiere.7.br"
-  },
-  {
-    "name": "premiere.8.br"
-  },
-  {
-    "name": "premiere.clubes.br"
-  },
-  {
-    "name": "premiere.futebol.br"
-  },
-  {
-    "name": "record.news.br"
-  },
-  {
-    "name": "record.br"
-  },
-  {
-    "name": "recordtv.s.o.paulo.br"
-  },
-  {
-    "name": "rede.tv.br"
-  },
-  {
-    "name": "sbt.br"
-  },
-  {
-    "name": "sony.br"
-  },
-  {
-    "name": "space.br"
-  },
-  {
-    "name": "sportv.br"
-  },
-  {
-    "name": "sportv2.br"
-  },
-  {
-    "name": "sportv3.br"
-  },
-  {
-    "name": "studio.universal.br"
-  },
-  {
-    "name": "syfy.br"
-  },
-  {
-    "name": "telecine.action.br"
-  },
-  {
-    "name": "telecine.fun.br"
-  },
-  {
-    "name": "telecine.pipoca.br"
-  },
-  {
-    "name": "telecine.premium.br"
-  },
-  {
-    "name": "tlc.br"
-  },
-  {
-    "name": "tnt.br"
-  },
-  {
-    "name": "tnt.series.br"
-  },
-  {
-    "name": "universal.br"
-  },
-  {
-    "name": "viva.br"
-  },
-  {
-    "name": "warner.channel.br"
-  },
-  {
-    "name": "woohoo.br"
-  },
-  {
     "name": "ptc.punjabi.us"
-  },
-  {
-    "name": "big.brother.il"
   },
   {
     "name": "baby.first.tv.us"
@@ -2883,16 +2610,10 @@
     "name": "espn.deportes.us"
   },
   {
-    "name": "espn.extra.br"
-  },
-  {
     "name": "estrella.tv.us"
   },
   {
     "name": "fox.deportes.us"
-  },
-  {
-    "name": "fox.premium.1.br"
   },
   {
     "name": "galavision.eastern.us"
@@ -2901,16 +2622,10 @@
     "name": "gol.tv.espanol.us"
   },
   {
-    "name": "golf.channel.br"
-  },
-  {
     "name": "mtv.tr3s.east.us"
   },
   {
     "name": "pasiones.east.us"
-  },
-  {
-    "name": "rbs.tv.santa.maria.br"
   },
   {
     "name": "rcn.nuestra.tele.us"
@@ -2958,9 +2673,6 @@
     "name": "tudnxtra.9.us"
   },
   {
-    "name": "tv5.br"
-  },
-  {
     "name": "unimas.network.east.us"
   },
   {
@@ -2983,11 +2695,5 @@
   },
   {
     "name": "espn.news.us"
-  },
-  {
-    "name": "band.br"
-  },
-  {
-    "name": "bandsports.br"
   }
 ]
