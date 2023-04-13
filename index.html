@@ -174,43 +174,39 @@
       async function loadChannels() {
         const response = await fetch('channels.json');
         const channels = await response.json();
-        
+
         const channelContainer = document.getElementById('channelContainer');
-        
-        channels.forEach(channel => {
-          const { name, displayName } = channel;
-          
+
+        for (let i = 0; i < channels.length; i++) {
+          const name = channels[i].name;
+
           const channelLink = document.createElement('a');
           channelLink.style.color = '#33FF6E';
           channelLink.onclick = () => {
             loadChannel(name);
           };
-          
+
           const channelImage = document.createElement('img');
           channelImage.src = `https://media.tv4.live/${name}.png`;
           channelImage.width = '50';
           channelImage.onclick = () => {
             selectImage(channelImage);
           };
-          
+
           channelLink.appendChild(channelImage);
           channelContainer.appendChild(channelLink);
-          
+
           const spacer = document.createTextNode('\u00A0\u00A0');
           channelContainer.appendChild(spacer);
-          
+
           // Add a line break after every 10 channel images
-          if ((index + 1) % 10 === 0) {
-            const lineBreak = document.createElement('br');
-            channelContainer.insertBefore(lineBreak, channelLink.nextSibling);
-          }
-          else if ((index + 1) === channels.length) {
+          if ((i + 1) % 10 === 0) {
             const lineBreak = document.createElement('br');
             channelContainer.appendChild(lineBreak);
           }
-        });
+        }
       }
-      
+
       // Call the loadChannels function to load and display the channels
       loadChannels();
     </script>
