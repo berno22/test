@@ -106,8 +106,8 @@
     <br>
     <br>
     
-    <div class="icon-container" id="channelContainer">
-    <!-- The channels will be added dynamically here -->
+    <div id="channelContainers">
+      <!-- The channel containers will be added dynamically here -->
     </div>
 
     <script>
@@ -170,40 +170,51 @@
         img.src = srcLink;
       });
 
-          // Load the channels JSON data
+          // Load the channels JSON data and split into chunks of 10
       async function loadChannels() {
         const response = await fetch('channels.json');
         const channels = await response.json();
+        const channelChunks = chunkArray(channels, 10);
 
-        const channelContainer = document.getElementById('channelContainer');
+        const channelContainers = document.getElementById('channelContainers');
 
-        for (let i = 0; i < channels.length; i++) {
-          const name = channels[i].name;
+        for (let i = 0; i < channelChunks.length; i++) {
+          const channelContainer = document.createElement('div');
+          channelContainer.classList.add('icon-container');
 
-          const channelLink = document.createElement('a');
-          channelLink.style.color = '#33FF6E';
-          channelLink.onclick = () => {
-          };
+          for (let j = 0; j < channelChunks[i].length; j++) {
+            const name = channelChunks[i][j].name;
 
-          const channelImage = document.createElement('img');
-          channelImage.src = `https://media.tv4.live/${name}.png`;
-          channelImage.width = '50';
-          channelImage.onclick = () => {
-            selectImage(channelImage);
-          };
+            const channelLink = document.createElement('a');
+            channelLink.style.color = '#33FF6E';
+            channelLink.onclick = () => {
+            };
 
-          channelLink.appendChild(channelImage);
-          channelContainer.appendChild(channelLink);
+            const channelImage = document.createElement('img');
+            channelImage.src = `https://media.tv4.live/${name}.png`;
+            channelImage.width = '50';
+            channelImage.onclick = () => {
+              selectImage(channelImage);
+            };
 
-          const spacer = document.createTextNode('\u00A0\u00A0');
-          channelContainer.appendChild(spacer);
+            channelLink.appendChild(channelImage);
+            channelContainer.appendChild(channelLink);
 
-          // Add a line break after every 10 channel links
-          if ((i + 1) % 10 === 0) {
-            const lineBreak = document.createElement('br');
-            channelContainer.appendChild(lineBreak);
+            const spacer = document.createTextNode('\u00A0\u00A0');
+            channelContainer.appendChild(spacer);
           }
+
+          channelContainers.appendChild(channelContainer);
         }
+      }
+
+      // Helper function to chunk an array into smaller arrays
+      function chunkArray(array, chunkSize) {
+        const chunks = [];
+        for (let i = 0; i < array.length; i += chunkSize) {
+          chunks.push(array.slice(i, i + chunkSize));
+        }
+        return chunks;
       }
 
       // Call the loadChannels function to load and display the channels
