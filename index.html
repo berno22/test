@@ -183,7 +183,6 @@
           const channelLink = document.createElement('a');
           channelLink.style.color = '#33FF6E';
           channelLink.onclick = () => {
-            loadChannel(name);
           };
 
           const channelImage = document.createElement('img');
@@ -199,22 +198,11 @@
           const spacer = document.createTextNode('\u00A0\u00A0');
           channelContainer.appendChild(spacer);
 
-          // Add a line break after every 10 channel images
+          // Add a line break after every 10 channel links
           if ((i + 1) % 10 === 0) {
             const lineBreak = document.createElement('br');
             channelContainer.appendChild(lineBreak);
           }
-        }
-
-        // Add a final line break to ensure the last row is correctly aligned
-        const remainingChannels = channels.length % 10;
-        if (remainingChannels !== 0) {
-          for (let i = 0; i < 10 - remainingChannels; i++) {
-            const emptySpacer = document.createTextNode('\u00A0\u00A0');
-            channelContainer.appendChild(emptySpacer);
-          }
-          const finalLineBreak = document.createElement('br');
-          channelContainer.appendChild(finalLineBreak);
         }
       }
 
