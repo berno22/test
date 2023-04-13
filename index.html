@@ -141,6 +141,7 @@
           document.getElementById("myPlayer").style.display = "block";
           document.getElementById("bullet").style.display = "inline";
           document.getElementById("closeFrame").style.display = "inline";
+          window.scrollTo({ top: 0, behavior: 'smooth' });
         } else {
           player.pause();
           document.getElementById("myPlayer").style.display = "none";
