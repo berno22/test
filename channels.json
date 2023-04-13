@@ -1176,9 +1176,6 @@
     "name": "msg.us"
   },
   {
-    "name": "nba.tv.usa.us"
-  },
-  {
     "name": "nbc.sports.bay.area.us"
   },
   {
@@ -1210,9 +1207,6 @@
   },
   {
     "name": "new.england.sports.network.us"
-  },
-  {
-    "name": "nfl.network.us"
   },
   {
     "name": "nhl.network.usa.us"
@@ -1303,9 +1297,6 @@
   },
   {
     "name": "mavtv.usa.us"
-  },
-  {
-    "name": "nfl.red.zone.us"
   },
   {
     "name": "espn.plus.18.us"
@@ -1569,127 +1560,10 @@
     "name": "espn.plus.5.us"
   },
   {
-    "name": "nba.2.us"
-  },
-  {
-    "name": "nba.3.us"
-  },
-  {
-    "name": "nba.4.us"
-  },
-  {
-    "name": "nba.5.us"
-  },
-  {
-    "name": "nba.6.us"
-  },
-  {
-    "name": "nba.7.us"
-  },
-  {
-    "name": "nba.8.us"
-  },
-  {
-    "name": "nba.9.us"
-  },
-  {
-    "name": "nba.10.us"
-  },
-  {
-    "name": "nba.11.us"
-  },
-  {
-    "name": "nba.12.us"
-  },
-  {
-    "name": "nba.13.us"
-  },
-  {
-    "name": "nba.14.us"
-  },
-  {
     "name": "altitude.sports.us"
   },
   {
     "name": "bally.sports.sun.us"
-  },
-  {
-    "name": "nba.atlanta.hawks.us"
-  },
-  {
-    "name": "nba.boston.celtics.us"
-  },
-  {
-    "name": "nba.charlotte.hornets.us"
-  },
-  {
-    "name": "nba.chicago.bulls.us"
-  },
-  {
-    "name": "nba.cleveland.cavaliers.us"
-  },
-  {
-    "name": "nba.dallas.mavericks.us"
-  },
-  {
-    "name": "nba.denver.nuggets.us"
-  },
-  {
-    "name": "nba.detroit.pistons.us"
-  },
-  {
-    "name": "nba.houston.rockets.us"
-  },
-  {
-    "name": "nba.indiana.pacers.us"
-  },
-  {
-    "name": "nba.los.angeles.clippers.us"
-  },
-  {
-    "name": "nba.los.angeles.lakers.us"
-  },
-  {
-    "name": "nba.memphis.grizzlies.us"
-  },
-  {
-    "name": "nba.miami.heat.us"
-  },
-  {
-    "name": "nba.milwaukee.bucks.us"
-  },
-  {
-    "name": "nba.minnesota.timberwolves.us"
-  },
-  {
-    "name": "nba.new.orleans.pelicans.us"
-  },
-  {
-    "name": "nba.oklahoma.city.thunder.us"
-  },
-  {
-    "name": "nba.orlando.magic.us"
-  },
-  {
-    "name": "nba.philadelphia.76ers.us"
-  },
-  {
-    "name": "nba.phoenix.suns.us"
-  },
-  {
-    "name": "nba.portland.trail.blazers.us"
-  },
-  {
-    "name": "nba.san.antonio.spurs.us"
-  },
-  {
-    "name": "nba.toronto.raptors.us"
-  },
-  {
-    "name": "nba.tv.usa.us"
-  },
-  {
-    "name": "nba.utah.jazz.us"
   },
   {
     "name": "ncaab.2.us"
@@ -1725,9 +1599,6 @@
     "name": "ncaab.30.us"
   },
   {
-    "name": "nfl.game.14.us"
-  },
-  {
     "name": "ncaab.34.us"
   },
   {
@@ -1753,102 +1624,6 @@
   },
   {
     "name": "ncaab.16.us"
-  },
-  {
-    "name": "nfl.ari.us"
-  },
-  {
-    "name": "nfl.atl.us"
-  },
-  {
-    "name": "nfl.bal.us"
-  },
-  {
-    "name": "nfl.buf.us"
-  },
-  {
-    "name": "nfl.car.us"
-  },
-  {
-    "name": "nfl.chi.us"
-  },
-  {
-    "name": "nfl.cin.us"
-  },
-  {
-    "name": "nfl.cle.us"
-  },
-  {
-    "name": "nfl.dal.us"
-  },
-  {
-    "name": "nfl.den.us"
-  },
-  {
-    "name": "nfl.det.us"
-  },
-  {
-    "name": "nfl.gb.us"
-  },
-  {
-    "name": "nfl.hou.us"
-  },
-  {
-    "name": "nfl.ind.us"
-  },
-  {
-    "name": "nfl.jac.us"
-  },
-  {
-    "name": "nfl.lv.us"
-  },
-  {
-    "name": "nfl.lac.us"
-  },
-  {
-    "name": "nfl.lar.us"
-  },
-  {
-    "name": "nfl.mia.us"
-  },
-  {
-    "name": "nfl.min.us"
-  },
-  {
-    "name": "nfl.network.us"
-  },
-  {
-    "name": "nfl.ne.us"
-  },
-  {
-    "name": "nfl.no.us"
-  },
-  {
-    "name": "nfl.nyg.us"
-  },
-  {
-    "name": "nfl.nyj.us"
-  },
-  {
-    "name": "nfl.phi.us"
-  },
-  {
-    "name": "nfl.pit.us"
-  },
-  {
-    "name": "nfl.red.zone.us"
-  },
-  {
-    "name": "nfl.sf.us"
-  },
-  {
-    "name": "nfl.sea.us"
-  },
-  {
-    "name": "nfl.tb.us"
-  },
-  {
-    "name": "nfl.ten.us"
   },
   {
     "name": "ncaab.31.us"
@@ -2637,9 +2412,6 @@
     "name": "telehit.us"
   },
   {
-    "name": "telemundo.puerto.rico.pr.us"
-  },
-  {
     "name": "tudn.us"
   },
   {
@@ -2674,12 +2446,6 @@
   },
   {
     "name": "unimas.network.east.us"
-  },
-  {
-    "name": "univision.eastern.us"
-  },
-  {
-    "name": "univision.tlnovelas.us"
   },
   {
     "name": "wapa.america.us"
