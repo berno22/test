@@ -205,6 +205,17 @@
             channelContainer.appendChild(lineBreak);
           }
         }
+
+        // Add a final line break to ensure the last row is correctly aligned
+        const remainingChannels = channels.length % 10;
+        if (remainingChannels !== 0) {
+          for (let i = 0; i < 10 - remainingChannels; i++) {
+            const emptySpacer = document.createTextNode('\u00A0\u00A0');
+            channelContainer.appendChild(emptySpacer);
+          }
+          const finalLineBreak = document.createElement('br');
+          channelContainer.appendChild(finalLineBreak);
+        }
       }
 
       // Call the loadChannels function to load and display the channels
