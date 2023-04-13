@@ -199,10 +199,10 @@
           const spacer = document.createTextNode('\u00A0\u00A0');
           channelContainer.appendChild(spacer);
           
-          // Add a line break after every 10 channels
+          // Add a line break after every 10 channel images
           if ((index + 1) % 10 === 0) {
             const lineBreak = document.createElement('br');
-            channelImage.appendChild(lineBreak);
+            channelContainer.insertBefore(lineBreak, channelLink.nextSibling);
           }
         });
       }
