@@ -2553,168 +2553,6 @@
     "name": "5.usa.uk"
   },
   {
-    "name": "ptc.punjabi.us"
-  },
-  {
-    "name": "baby.first.tv.us"
-  },
-  {
-    "name": "boomerang.us"
-  },
-  {
-    "name": "cartoon.network.usa.eastern.us"
-  },
-  {
-    "name": "cartoon.network.usa.pacific.us"
-  },
-  {
-    "name": "disney.eastern.us"
-  },
-  {
-    "name": "disney.junior.usa.east.us"
-  },
-  {
-    "name": "disney.xd.usa.eastern.us"
-  },
-  {
-    "name": "nick.jr.us"
-  },
-  {
-    "name": "nickelodeon.usa.east.us"
-  },
-  {
-    "name": "nickelodeon.usa.pacific.us"
-  },
-  {
-    "name": "nickmusic.us"
-  },
-  {
-    "name": "nicktoons.east.us"
-  },
-  {
-    "name": "teennick.eastern.us"
-  },
-  {
-    "name": "bandamax.us"
-  },
-  {
-    "name": "bein.sport.en.espanol.us"
-  },
-  {
-    "name": "centroamerica.tv.us"
-  },
-  {
-    "name": "cine.estelar.us"
-  },
-  {
-    "name": "cine.sony.us"
-  },
-  {
-    "name": "cnn.espaol.us"
-  },
-  {
-    "name": "de.pelicula.clasico.us"
-  },
-  {
-    "name": "de.pelicula.us"
-  },
-  {
-    "name": "discovery.en.espanol.us"
-  },
-  {
-    "name": "discovery.familia.us"
-  },
-  {
-    "name": "espn.deportes.us"
-  },
-  {
-    "name": "estrella.tv.us"
-  },
-  {
-    "name": "fox.deportes.us"
-  },
-  {
-    "name": "galavision.eastern.us"
-  },
-  {
-    "name": "gol.tv.espanol.us"
-  },
-  {
-    "name": "mtv.tr3s.east.us"
-  },
-  {
-    "name": "pasiones.east.us"
-  },
-  {
-    "name": "rcn.nuestra.tele.us"
-  },
-  {
-    "name": "rtpi.america.us"
-  },
-  {
-    "name": "telehit.us"
-  },
-  {
-    "name": "telemundo.puerto.rico.pr.us"
-  },
-  {
-    "name": "tudn.us"
-  },
-  {
-    "name": "tudnxtra.1.us"
-  },
-  {
-    "name": "tudnxtra.10.us"
-  },
-  {
-    "name": "tudnxtra.2.us"
-  },
-  {
-    "name": "tudnxtra.3.us"
-  },
-  {
-    "name": "tudnxtra.4.us"
-  },
-  {
-    "name": "tudnxtra.5.us"
-  },
-  {
-    "name": "tudnxtra.6.us"
-  },
-  {
-    "name": "tudnxtra.7.us"
-  },
-  {
-    "name": "tudnxtra.8.us"
-  },
-  {
-    "name": "tudnxtra.9.us"
-  },
-  {
-    "name": "unimas.network.east.us"
-  },
-  {
-    "name": "univision.eastern.us"
-  },
-  {
-    "name": "univision.tlnovelas.us"
-  },
-  {
-    "name": "wapa.america.us"
-  },
-  {
-    "name": "rtn.russian.television.network.us"
-  },
-  {
-    "name": "espn.us"
-  },
-  {
-    "name": "espn2.us"
-  },
-  {
-    "name": "espn.news.us"
-  }
-  {
     "name": "a.e.br"
   },
   {
@@ -2967,22 +2805,184 @@
     "name": "woohoo.br"
   },
   {
+    "name": "ptc.punjabi.us"
+  },
+  {
     "name": "big.brother.il"
+  },
+  {
+    "name": "baby.first.tv.us"
+  },
+  {
+    "name": "boomerang.us"
+  },
+  {
+    "name": "cartoon.network.usa.eastern.us"
+  },
+  {
+    "name": "cartoon.network.usa.pacific.us"
+  },
+  {
+    "name": "disney.eastern.us"
+  },
+  {
+    "name": "disney.junior.usa.east.us"
+  },
+  {
+    "name": "disney.xd.usa.eastern.us"
+  },
+  {
+    "name": "nick.jr.us"
+  },
+  {
+    "name": "nickelodeon.usa.east.us"
+  },
+  {
+    "name": "nickelodeon.usa.pacific.us"
+  },
+  {
+    "name": "nickmusic.us"
+  },
+  {
+    "name": "nicktoons.east.us"
+  },
+  {
+    "name": "teennick.eastern.us"
+  },
+  {
+    "name": "bandamax.us"
+  },
+  {
+    "name": "bein.sport.en.espanol.us"
+  },
+  {
+    "name": "centroamerica.tv.us"
+  },
+  {
+    "name": "cine.estelar.us"
+  },
+  {
+    "name": "cine.sony.us"
+  },
+  {
+    "name": "cnn.espaol.us"
+  },
+  {
+    "name": "de.pelicula.clasico.us"
+  },
+  {
+    "name": "de.pelicula.us"
+  },
+  {
+    "name": "discovery.en.espanol.us"
+  },
+  {
+    "name": "discovery.familia.us"
+  },
+  {
+    "name": "espn.deportes.us"
   },
   {
     "name": "espn.extra.br"
   },
   {
+    "name": "estrella.tv.us"
+  },
+  {
+    "name": "fox.deportes.us"
+  },
+  {
     "name": "fox.premium.1.br"
+  },
+  {
+    "name": "galavision.eastern.us"
+  },
+  {
+    "name": "gol.tv.espanol.us"
   },
   {
     "name": "golf.channel.br"
   },
   {
+    "name": "mtv.tr3s.east.us"
+  },
+  {
+    "name": "pasiones.east.us"
+  },
+  {
     "name": "rbs.tv.santa.maria.br"
   },
   {
+    "name": "rcn.nuestra.tele.us"
+  },
+  {
+    "name": "rtpi.america.us"
+  },
+  {
+    "name": "telehit.us"
+  },
+  {
+    "name": "telemundo.puerto.rico.pr.us"
+  },
+  {
+    "name": "tudn.us"
+  },
+  {
+    "name": "tudnxtra.1.us"
+  },
+  {
+    "name": "tudnxtra.10.us"
+  },
+  {
+    "name": "tudnxtra.2.us"
+  },
+  {
+    "name": "tudnxtra.3.us"
+  },
+  {
+    "name": "tudnxtra.4.us"
+  },
+  {
+    "name": "tudnxtra.5.us"
+  },
+  {
+    "name": "tudnxtra.6.us"
+  },
+  {
+    "name": "tudnxtra.7.us"
+  },
+  {
+    "name": "tudnxtra.8.us"
+  },
+  {
+    "name": "tudnxtra.9.us"
+  },
+  {
     "name": "tv5.br"
+  },
+  {
+    "name": "unimas.network.east.us"
+  },
+  {
+    "name": "univision.eastern.us"
+  },
+  {
+    "name": "univision.tlnovelas.us"
+  },
+  {
+    "name": "wapa.america.us"
+  },
+  {
+    "name": "rtn.russian.television.network.us"
+  },
+  {
+    "name": "espn.us"
+  },
+  {
+    "name": "espn2.us"
+  },
+  {
+    "name": "espn.news.us"
   },
   {
     "name": "band.br"
