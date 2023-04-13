@@ -54,9 +54,6 @@
     "name": "bbc.america.east.us"
   },
   {
-    "name": "bbc.world.north.america.us"
-  },
-  {
     "name": "bet.eastern.us"
   },
   {
@@ -133,9 +130,6 @@
   },
   {
     "name": "cnbc.usa.us"
-  },
-  {
-    "name": "cnbc.world.us"
   },
   {
     "name": "cnn.international.north.america.us"
@@ -321,9 +315,6 @@
     "name": "hbo.eastern.us"
   },
   {
-    "name": "hbo.west.us"
-  },
-  {
     "name": "hbo.2.eastern.us"
   },
   {
@@ -429,19 +420,10 @@
     "name": "logo.east.us"
   },
   {
-    "name": "lx.network.wnbc.dt3.new.york.ny.us"
-  },
-  {
     "name": "mavtv.usa.us"
   },
   {
     "name": "metv.network.us"
-  },
-  {
-    "name": "metv.kaef.dt2.eureka.ca.us"
-  },
-  {
-    "name": "metv.wjlp.new.jerseynew.york.us"
   },
   {
     "name": "mgm.usa.us"
@@ -495,9 +477,6 @@
     "name": "national.geographic.us.eastern.us"
   },
   {
-    "name": "national.geographic.wild.us"
-  },
-  {
     "name": "nbc.news.now.us"
   },
   {
@@ -537,9 +516,6 @@
     "name": "ovation.us"
   },
   {
-    "name": "oprah.winfrey.network.usa.eastern.us"
-  },
-  {
     "name": "oxygen.eastern.us"
   },
   {
@@ -547,9 +523,6 @@
   },
   {
     "name": "paramount.network.usa.eastern.us"
-  },
-  {
-    "name": "pbs.kids.us"
   },
   {
     "name": "pixl.tv.us"
@@ -606,13 +579,7 @@
     "name": "screenpix.voices.us"
   },
   {
-    "name": "screenpix.westerns.us"
-  },
-  {
     "name": "showtime.eastern.us"
-  },
-  {
-    "name": "showtime.west.us"
   },
   {
     "name": "showtime.2.eastern.us"
@@ -643,12 +610,6 @@
   },
   {
     "name": "showtime.showcase.pacific.us"
-  },
-  {
-    "name": "showtime.women.eastern.us"
-  },
-  {
-    "name": "showtime.women.pacific.us"
   },
   {
     "name": "shoxbet.eastern.us"
@@ -726,25 +687,13 @@
     "name": "starz.encore.suspense.pacific.us"
   },
   {
-    "name": "starz.encore.westerns.pacific.us"
-  },
-  {
     "name": "starz.in.black.eastern.us"
   },
   {
     "name": "starz.in.black.pacific.us"
   },
   {
-    "name": "starz.kids.family.pacific.us"
-  },
-  {
-    "name": "starz.kids.family.eastern.us"
-  },
-  {
     "name": "starz.encore.suspense.eastern.us"
-  },
-  {
-    "name": "starz.encore.westerns.eastern.us"
   },
   {
     "name": "sundancetv.usa.east.us"
@@ -787,12 +736,6 @@
   },
   {
     "name": "movie.channel.extra.us"
-  },
-  {
-    "name": "the.weather.channel.us"
-  },
-  {
-    "name": "the.word.network.us"
   },
   {
     "name": "thrillermax.east.us"
@@ -840,9 +783,6 @@
     "name": "tv.one.us"
   },
   {
-    "name": "universal.kids.us"
-  },
-  {
     "name": "up.us"
   },
   {
@@ -867,9 +807,6 @@
     "name": "weathernation.us"
   },
   {
-    "name": "wfn.world.fishing.network.us"
-  },
-  {
     "name": "wgn.chicago.local.us"
   },
   {
@@ -882,1636 +819,10 @@
     "name": "ginx.esports.tv.canada.us"
   },
   {
-    "name": "abc.kaal.austin.mn.us"
-  },
-  {
-    "name": "abc.kabc.los.angeles.ca.us"
-  },
-  {
-    "name": "abc.kake.wichita.ks.us"
-  },
-  {
-    "name": "abc.katc.lafayette.la.us"
-  },
-  {
-    "name": "abc.katu.portland.or.us"
-  },
-  {
-    "name": "abc.katv.little.rock.ar.us"
-  },
-  {
-    "name": "abc.kbmt.us"
-  },
-  {
-    "name": "abc.kbmy.bismarck.nd.us"
-  },
-  {
-    "name": "abc.kcau.sioux.city.ia.us"
-  },
-  {
-    "name": "abc.kcrg.cedar.rapids.ia.us"
-  },
-  {
-    "name": "abc.kdnl.st.louis.mo.us"
-  },
-  {
-    "name": "abc.kero.bakersfield.ca.us"
-  },
-  {
-    "name": "abc.ketv.omaha.ne.us"
-  },
-  {
-    "name": "abc.keyt.santa.barbara.ca.us"
-  },
-  {
-    "name": "abc.kfsn.fresno.ca.us"
-  },
-  {
-    "name": "abc.kgo.san.francisco.ca.us"
-  },
-  {
-    "name": "abc.kgtv.san.diego.ca.us"
-  },
-  {
-    "name": "abc.kgun.tucson.az.us"
-  },
-  {
-    "name": "abc.khbb.helena.mt.us"
-  },
-  {
-    "name": "abc.khqa.dt2.quincy.mo.us"
-  },
-  {
-    "name": "abc.kiii.corpus.christi.tx.us"
-  },
-  {
-    "name": "abc.klkn.lincoln.ne.us"
-  },
-  {
-    "name": "abc.kmbc.kansas.city.mo.us"
-  },
-  {
-    "name": "abc.kmgh.denver.co.us"
-  },
-  {
-    "name": "abc.kmid.midland.tx.us"
-  },
-  {
-    "name": "abc.kmiz.columbia.mo.us"
-  },
-  {
-    "name": "abc.knxv.phoenix.az.us"
-  },
-  {
-    "name": "abc.koat.albuquerque.nm.us"
-  },
-  {
-    "name": "abc.koco.oklahoma.city.ok.us"
-  },
-  {
-    "name": "abc.kode.joplin.mo.us"
-  },
-  {
-    "name": "abc.kolo.reno.nv.us"
-  },
-  {
-    "name": "abc.komo.seattle.wa.us"
-  },
-  {
-    "name": "abc.krgv.weslaco.tx.us"
-  },
-  {
-    "name": "abc.ksat.san.antonio.tx.us"
-  },
-  {
-    "name": "abc.ksfy.sioux.falls.sd.us"
-  },
-  {
-    "name": "abc.kstp.st.paul.mn.us"
-  },
-  {
-    "name": "abc.kswo.tv.lawton.ok.us"
-  },
-  {
-    "name": "abc.ktbs.shreveport.la.us"
-  },
-  {
-    "name": "abc.ktka.topeka.ks.us"
-  },
-  {
-    "name": "abc.ktnv.las.vegas.nv.us"
-  },
-  {
-    "name": "abc.ktrk.houston.tx.us"
-  },
-  {
-    "name": "abc.ktul.tulsa.ok.us"
-  },
-  {
-    "name": "abc.ktvx.salt.lake.city.ut.us"
-  },
-  {
-    "name": "abc.ktwo.casper.wy.us"
-  },
-  {
-    "name": "abc.kvia.el.paso.tx.us"
-  },
-  {
-    "name": "abc.kvii.amarillo.tx.us"
-  },
-  {
-    "name": "abc.kvue.austin.tx.us"
-  },
-  {
-    "name": "abc.kxtv.sacramento.ca.us"
-  },
-  {
-    "name": "abc.kxxv.waco.tx.us"
-  },
-  {
-    "name": "abc.waay.huntsville.al.us"
-  },
-  {
-    "name": "abc.wabc.new.york.ny.us"
-  },
-  {
-    "name": "abc.wapt.jackson.ms.us"
-  },
-  {
-    "name": "abc.wate.knoxville.tn.us"
-  },
-  {
-    "name": "abc.wbay.green.bay.wi.us"
-  },
-  {
-    "name": "abc.wbko.bowling.green.ky.us"
-  },
-  {
-    "name": "abc.wbma.birmingham.al.us"
-  },
-  {
-    "name": "abc.wbrz.baton.rouge.la.us"
-  },
-  {
-    "name": "abc.wchs.charleston.wv.us"
-  },
-  {
-    "name": "abc.wciv2.charleston.sc.us"
-  },
-  {
-    "name": "abc.wcjb.gainesville.fl.us"
-  },
-  {
-    "name": "abc.wcpo.cincinnati.oh.us"
-  },
-  {
-    "name": "abc.wcti.new.bern.nc.us"
-  },
-  {
-    "name": "abc.wcvb.boston.ma.us"
-  },
-  {
-    "name": "abc.wday.fargo.nd.us"
-  },
-  {
-    "name": "abc.wear.pensacola.fl.us"
-  },
-  {
-    "name": "abc.wews.cleveland.oh.us"
-  },
-  {
-    "name": "abc.wfaa.dallas.tx.us"
-  },
-  {
-    "name": "abc.wfts.tampa.bay.fl.us"
-  },
-  {
-    "name": "abc.wftv.orlando.fl.us"
-  },
-  {
-    "name": "abc.wggb.springfield.ma.us"
-  },
-  {
-    "name": "abc.wgno.new.orleans.la.us"
-  },
-  {
-    "name": "abc.wgxa.dt2.macon.ga.us"
-  },
-  {
-    "name": "abc.wham.rochester.ny.us"
-  },
-  {
-    "name": "abc.whas.louisville.ky.us"
-  },
-  {
-    "name": "abc.whtm.harrisburg.pa.us"
-  },
-  {
-    "name": "abc.wisn.milwaukee.wi.us"
-  },
-  {
-    "name": "abc.wjbf.augusta.ga.us"
-  },
-  {
-    "name": "abc.wjla.district.of.columbia.us"
-  },
-  {
-    "name": "abc.wjxx.jacksonville.fl.us"
-  },
-  {
-    "name": "abc.wkbw.buffalo.ny.us"
-  },
-  {
-    "name": "abc.wkef.dayton.oh.us"
-  },
-  {
-    "name": "abc.wkow.madison.wi.us"
-  },
-  {
-    "name": "abc.wkrn.nashville.tn.us"
-  },
-  {
-    "name": "abc.wlne.providence.ri.us"
-  },
-  {
-    "name": "abc.wlos.asheville.nc.us"
-  },
-  {
-    "name": "abc.wls.chicago.il.us"
-  },
-  {
-    "name": "abc.wmar.baltimore.md.us"
-  },
-  {
-    "name": "abc.wmtw.auburn.me.us"
-  },
-  {
-    "name": "abc.wmur.manchester.nh.us"
-  },
-  {
-    "name": "abc.wncf.montgomery.al.us"
-  },
-  {
-    "name": "abc.wnep.scranton.pa.us"
-  },
-  {
-    "name": "abc.wolo.columbia.sc.us"
-  },
-  {
-    "name": "abc.wotv.battle.creek.mi.us"
-  },
-  {
-    "name": "abc.wpbf.west.palm.beach.fl.us"
-  },
-  {
-    "name": "abc.wpde.lumberton.nc.us"
-  },
-  {
-    "name": "abc.wplg.miami.fl.us"
-  },
-  {
-    "name": "abc.wpta.fort.wayne.in.us"
-  },
-  {
-    "name": "abc.wpvi.philadelphia.pa.us"
-  },
-  {
-    "name": "abc.wqad.quad.cities.ia.us"
-  },
-  {
-    "name": "abc.wric.richmond.va.us"
-  },
-  {
-    "name": "abc.wrtv.indianapolis.in.us"
-  },
-  {
-    "name": "abc.wsb.atlanta.ga.us"
-  },
-  {
-    "name": "abc.wset.lynchburg.va.us"
-  },
-  {
-    "name": "abc.wsoc.charlotte.nc.us"
-  },
-  {
-    "name": "abc.wsyr.syracuse.ny.us"
-  },
-  {
-    "name": "abc.wsyx.columbus.oh.us"
-  },
-  {
-    "name": "abc.wtae.pittsburgh.pa.us"
-  },
-  {
-    "name": "abc.wten.albany.ny.us"
-  },
-  {
-    "name": "abc.wtnh.dt1.new.haven.ct.us"
-  },
-  {
-    "name": "abc.wtvc.chattanooga.tn.us"
-  },
-  {
-    "name": "abc.wtvd.raleigh.nc.us"
-  },
-  {
-    "name": "abc.wtvg.toledo.oh.us"
-  },
-  {
-    "name": "abc.wtvm.columbus.ga.us"
-  },
-  {
-    "name": "abc.wtvo.rockford.il.us"
-  },
-  {
-    "name": "abc.wtxl.tallahassee.fl.us"
-  },
-  {
-    "name": "abc.wutr.utica.ny.us"
-  },
-  {
-    "name": "abc.wvec.norfolk.va.us"
-  },
-  {
-    "name": "abc.wvii.bangor.me.us"
-  },
-  {
-    "name": "abc.wway.wilmington.nc.us"
-  },
-  {
-    "name": "abc.wwsb.sarsota.fl.us"
-  },
-  {
-    "name": "abc.wxlv.winston.salem.nc.us"
-  },
-  {
-    "name": "abc.wxyz.detroit.mi.us"
-  },
-  {
-    "name": "abc.wzvn.fort.myers.fl.us"
-  },
-  {
-    "name": "abc.wzzm.grand.rapids.mi.us"
-  },
-  {
-    "name": "abc.wjrt.us"
-  },
-  {
-    "name": "cbs.kauz.wichita.falls.tx.us"
-  },
-  {
-    "name": "cbs.kbak.bakersfield.ca.us"
-  },
-  {
-    "name": "cbs.kboi.boise.id.us"
-  },
-  {
-    "name": "cbs.kcbs.los.angeles.ca.us"
-  },
-  {
-    "name": "cbs.kcci.des.moines.us"
-  },
-  {
-    "name": "cbs.kcnc.denver.co.us"
-  },
-  {
-    "name": "cbs.kcoy.santa.maria.ca.us"
-  },
-  {
-    "name": "cbs.kctv.kansas.city.mo.us"
-  },
-  {
-    "name": "cbs.kdbc.el.paso.tx.us"
-  },
-  {
-    "name": "cbs.kdka.pittsburgh.pa.us"
-  },
-  {
-    "name": "cbs.kelo.sioux.falls.sd.us"
-  },
-  {
-    "name": "cbs.kens.san.antonio.tx.us"
-  },
-  {
-    "name": "cbs.keye.austin.tx.us"
-  },
-  {
-    "name": "cbs.kfda.amarillo.tx.us"
-  },
-  {
-    "name": "cbs.kfdm.us"
-  },
-  {
-    "name": "cbs.kfmb.san.diego.ca.us"
-  },
-  {
-    "name": "cbs.kfvs.cape.girardeau.mo.us"
-  },
-  {
-    "name": "cbs.kgan.cedar.rapids.ia.us"
-  },
-  {
-    "name": "cbs.kgbt.harlingen.tx.us"
-  },
-  {
-    "name": "cbs.kgmb.honolulu.hi.us"
-  },
-  {
-    "name": "cbs.kgpe.fresno.ca.us"
-  },
-  {
-    "name": "cbs.kgwn.cheyenne.wy.us"
-  },
-  {
-    "name": "cbs.khou.houston.tx.us"
-  },
-  {
-    "name": "cbs.khqa.quincy.mo.us"
-  },
-  {
-    "name": "cbs.kimt.mason.city.ia.us"
-  },
-  {
-    "name": "cbs.kiro.seattle.wa.us"
-  },
-  {
-    "name": "cbs.kktv.colorado.springs.co.us"
-  },
-  {
-    "name": "cbs.klas.las.vegas.nv.us"
-  },
-  {
-    "name": "cbs.klfy.lafayette.la.us"
-  },
-  {
-    "name": "cbs.kmeg.sioux.city.ia.us"
-  },
-  {
-    "name": "cbs.kmov.st.louis.mo.us"
-  },
-  {
-    "name": "cbs.kmtv.omaha.ne.us"
-  },
-  {
-    "name": "cbs.koin.portland.or.us"
-  },
-  {
-    "name": "cbs.kold.tucson.az.us"
-  },
-  {
-    "name": "cbs.koln.lincoln.ne.us"
-  },
-  {
-    "name": "cbs.kosa.midland.tx.us"
-  },
-  {
-    "name": "cbs.kotv.tulsa.ok.us"
-  },
-  {
-    "name": "cbs.kovr.sacramento.ca.us"
-  },
-  {
-    "name": "cbs.kpax.missoula.mt.us"
-  },
-  {
-    "name": "cbs.kpho.phoenix.az.us"
-  },
-  {
-    "name": "cbs.kpix.san.francisco.ca.us"
-  },
-  {
-    "name": "cbs.krcg.jefferson.mo.us"
-  },
-  {
-    "name": "cbs.krqe.albuquerque.nm.us"
-  },
-  {
-    "name": "cbs.ksla.shreveport.la.us"
-  },
-  {
-    "name": "cbs.kthv.little.rock.ar.us"
-  },
-  {
-    "name": "cbs.ktva.anchorage.ak.us"
-  },
-  {
-    "name": "cbs.ktvn.reno.nv.us"
-  },
-  {
-    "name": "cbs.ktvt.fort.worth.tx.us"
-  },
-  {
-    "name": "cbs.kutv.salt.lake.city.ut.us"
-  },
-  {
-    "name": "cbs.kwch.wichita.ks.us"
-  },
-  {
-    "name": "cbs.kwtv.oklahoma.city.ok.us"
-  },
-  {
-    "name": "cbs.kwtx.waco.tx.us"
-  },
-  {
-    "name": "cbs.kxjb.fargo.nd.us"
-  },
-  {
-    "name": "cbs.kyma.yuma.az.us"
-  },
-  {
-    "name": "cbs.kyw.philadelphia.pa.us"
-  },
-  {
-    "name": "cbs.kztv.corpus.christi.tx.us"
-  },
-  {
-    "name": "cbs.wncn.raleighdurham.nc.us"
-  },
-  {
-    "name": "cbs.wabi.bangor.me.us"
-  },
-  {
-    "name": "cbs.wafb.baton.rouge.la.us"
-  },
-  {
-    "name": "cbs.waka.montgomery.al.us"
-  },
-  {
-    "name": "cbs.wane.fort.wayne.in.us"
-  },
-  {
-    "name": "cbs.wbbm.chicago.il.us"
-  },
-  {
-    "name": "cbs.wbng.binghamton.ny.us"
-  },
-  {
-    "name": "cbs.wbns.columbus.oh.us"
-  },
-  {
-    "name": "cbs.wbtv.charlotte.nc.us"
-  },
-  {
-    "name": "cbs.wbtw.myrtle.beach.sc.us"
-  },
-  {
-    "name": "cbs.wbz.boston.ma.us"
-  },
-  {
-    "name": "cbs.wcbi.colombus.ms.us"
-  },
-  {
-    "name": "cbs.wcbs.new.york.ny.us"
-  },
-  {
-    "name": "cbs.wcco.minneapolis.mn.us"
-  },
-  {
-    "name": "cbs.wcsc.charleston.sc.us"
-  },
-  {
-    "name": "cbs.wctv.tallahassee.fl.us"
-  },
-  {
-    "name": "cbs.wdbj.roanoke.va.us"
-  },
-  {
-    "name": "cbs.wdef.chattanooga.tn.us"
-  },
-  {
-    "name": "cbs.wdjt.milwaukee.wi.us"
-  },
-  {
-    "name": "cbs.wevv.evansville.in.us"
-  },
-  {
-    "name": "cbs.wfmy.greensboro.nc.us"
-  },
-  {
-    "name": "cbs.wfor.miami.fl.us"
-  },
-  {
-    "name": "cbs.wfrv.green.bay.wi.us"
-  },
-  {
-    "name": "cbs.wfsb.hartford.ct.us"
-  },
-  {
-    "name": "cbs.wgcl.atlanta.ga.us"
-  },
-  {
-    "name": "cbs.wgme.portland.me.us"
-  },
-  {
-    "name": "cbs.whbf.rock.island.il.us"
-  },
-  {
-    "name": "cbs.whio.dayton.oh.us"
-  },
-  {
-    "name": "cbs.whnt.huntsville.al.us"
-  },
-  {
-    "name": "cbs.whp.harrisburg.pa.us"
-  },
-  {
-    "name": "cbs.wiat.birmingham.al.us"
-  },
-  {
-    "name": "cbs.wibw.topeka.ks.us"
-  },
-  {
-    "name": "cbs.wifr.rockford.il.us"
-  },
-  {
-    "name": "cbs.wink.fort.myers.fl.us"
-  },
-  {
-    "name": "cbs.wivb.buffalo.ny.us"
-  },
-  {
-    "name": "cbs.wjax.jacksonville.fl.us"
-  },
-  {
-    "name": "cbs.wjhl.tri.cities.tnva.us"
-  },
-  {
-    "name": "cbs.wjtv.jackson.ms.us"
-  },
-  {
-    "name": "cbs.wjz.baltimore.md.us"
-  },
-  {
-    "name": "cbs.wkbt.la.crosse.wi.us"
-  },
-  {
-    "name": "cbs.wkmg.orlando.fl.us"
-  },
-  {
-    "name": "cbs.wkrc.cincinnati.oh.us"
-  },
-  {
-    "name": "cbs.wkrg.mobile.al.us"
-  },
-  {
-    "name": "cbs.wkyt.lexington.ky.us"
-  },
-  {
-    "name": "cbs.wlky.louisville.ky.us"
-  },
-  {
-    "name": "cbs.wltx.columbia.sc.us"
-  },
-  {
-    "name": "cbs.wmaz.macon.ga.us"
-  },
-  {
-    "name": "cbs.wmbd.central.illinois.il.us"
-  },
-  {
-    "name": "cbs.wnct.greenville.nc.us"
-  },
-  {
-    "name": "cbs.woio.cleveland.oh.us"
-  },
-  {
-    "name": "cbs.wpec.west.palm.beach.fl.us"
-  },
-  {
-    "name": "cbs.wpri.e.providence.ri.us"
-  },
-  {
-    "name": "cbs.wrbl.columbus.ga.us"
-  },
-  {
-    "name": "cbs.wrdw.augusta.ga.us"
-  },
-  {
-    "name": "cbs.wreg.memphis.tn.us"
-  },
-  {
-    "name": "cbs.wrgb.albany.ny.us"
-  },
-  {
-    "name": "cbs.wroc.rochester.ny.us"
-  },
-  {
-    "name": "cbs.wsbt.south.bend.in.us"
-  },
-  {
-    "name": "cbs.wspa.spartanburg.sc.us"
-  },
-  {
-    "name": "cbs.wtkr.norfolk.va.us"
-  },
-  {
-    "name": "cbs.wtoc.savannah.ga.us"
-  },
-  {
-    "name": "cbs.wtol.toledo.oh.us"
-  },
-  {
-    "name": "cbs.wtsp.tampa.bay.fl.us"
-  },
-  {
-    "name": "cbs.wttv.indianapolis.in.us"
-  },
-  {
-    "name": "cbs.wtvf.nashville.tn.us"
-  },
-  {
-    "name": "cbs.wtvh.syracuse.ny.us"
-  },
-  {
-    "name": "cbs.wtvr.richmond.va.us"
-  },
-  {
-    "name": "cbs.wusa.district.of.columbia.us"
-  },
-  {
-    "name": "cbs.wvlt.knoxville.tn.us"
-  },
-  {
-    "name": "cbs.wway.dt2.wilmington.nc.us"
-  },
-  {
-    "name": "cbs.wwj.detroit.mi.us"
-  },
-  {
-    "name": "cbs.wwl.new.orleans.la.us"
-  },
-  {
-    "name": "cbs.wwmt.kalamazoo.mi.us"
-  },
-  {
-    "name": "cbs.wymt.hazard.ky.us"
-  },
-  {
-    "name": "cbs.wyou.scranton.pa.us"
-  },
-  {
-    "name": "cbs.wisc.madison.us"
-  },
-  {
-    "name": "cbs.wnem.us"
-  },
-  {
-    "name": "cw.kvcw.las.vegas.nv.us"
-  },
-  {
-    "name": "cw.wcwj.jacksonville.fl.us"
-  },
-  {
-    "name": "cw.wkcf.orlando.fl.us"
-  },
-  {
-    "name": "cw.wnab.nashville.tn.us"
-  },
-  {
-    "name": "cw.wnol.new.orleans.la.us"
-  },
-  {
-    "name": "cw.wpcw.pittsburgh.pa.us"
-  },
-  {
-    "name": "cw.wpsg.philadelphia.pa.us"
-  },
-  {
-    "name": "cw.wtto.birmingham.al.us"
-  },
-  {
-    "name": "cw.wupa.atlanta.ga.us"
-  },
-  {
-    "name": "cw.wycw.asheville.nc.us"
-  },
-  {
-    "name": "fox.kabb.san.antonio.tx.us"
-  },
-  {
-    "name": "fox.kadn.lafayette.la.us"
-  },
-  {
-    "name": "fox.kcba.salinas.ca.us"
-  },
-  {
-    "name": "fox.kcit.amarillo.tx.us"
-  },
-  {
-    "name": "fox.kcpq.tacoma.wa.us"
-  },
-  {
-    "name": "fox.kdfw.dallas.tx.us"
-  },
-  {
-    "name": "fox.kdsm.des.moines.ia.us"
-  },
-  {
-    "name": "fox.kdvr.denver.co.us"
-  },
-  {
-    "name": "fox.kecy.yuma.az.us"
-  },
-  {
-    "name": "fox.kfjx.pittsburg.ks.us"
-  },
-  {
-    "name": "fox.kfnb.casper.wy.us"
-  },
-  {
-    "name": "fox.kfox.el.paso.tx.us"
-  },
-  {
-    "name": "fox.kfxa.cedar.rapids.ia.us"
-  },
-  {
-    "name": "fox.kfxl.lincoln.ne.us"
-  },
-  {
-    "name": "fox.kfxv.ld.mcallen.tx.us"
-  },
-  {
-    "name": "fox.khon.honolulu.hi.us"
-  },
-  {
-    "name": "fox.kkfx.santa.barbara.ca.us"
-  },
-  {
-    "name": "fox.kljb.davenport.ia.us"
-  },
-  {
-    "name": "fox.klrt.little.rock.ar.us"
-  },
-  {
-    "name": "fox.kmph.fresno.ca.us"
-  },
-  {
-    "name": "fox.kmsb.tucson.az.us"
-  },
-  {
-    "name": "fox.kmss.shreveport.la.us"
-  },
-  {
-    "name": "fox.knin.boise.id.us"
-  },
-  {
-    "name": "fox.kokh.oklahoma.city.ok.us"
-  },
-  {
-    "name": "fox.koki.tulsa.ok.us"
-  },
-  {
-    "name": "fox.kpej.midland.tx.us"
-  },
-  {
-    "name": "fox.kpth.sioux.city.ia.us"
-  },
-  {
-    "name": "fox.kptm.omaha.ne.us"
-  },
-  {
-    "name": "fox.kptv.portland.or.us"
-  },
-  {
-    "name": "fox.kqfx.columbia.mo.us"
-  },
-  {
-    "name": "fox.kriv.houston.tx.us"
-  },
-  {
-    "name": "fox.krxi.reno.nv.us"
-  },
-  {
-    "name": "fox.ksas.tv.wichita.ks.us"
-  },
-  {
-    "name": "fox.ksaz.phoenix.az.us"
-  },
-  {
-    "name": "fox.kstu.salt.lake.city.ut.us"
-  },
-  {
-    "name": "fox.kswb.san.diego.ca.us"
-  },
-  {
-    "name": "fox.ktbc.austin.tx.us"
-  },
-  {
-    "name": "fox.ktby.anchorage.ak.us"
-  },
-  {
-    "name": "fox.kttv.los.angeles.ca.us"
-  },
-  {
-    "name": "fox.kttw.sioux.falls.sd.us"
-  },
-  {
-    "name": "fox.ktvi.st.louis.mo.us"
-  },
-  {
-    "name": "fox.ktvu.san.francisco.ca.us"
-  },
-  {
-    "name": "fox.ktxl.sacramento.ca.us"
-  },
-  {
-    "name": "fox.kvrr.fargo.nd.us"
-  },
-  {
-    "name": "fox.kvvu.las.vegas.nv.us"
-  },
-  {
-    "name": "fox.kwkt.waco.tx.us"
-  },
-  {
-    "name": "fox.kmspdt9.minneapolis.mn.us"
-  },
-  {
-    "name": "fox.wach.columbia.sc.us"
-  },
-  {
-    "name": "fox.waga.atlanta.ga.us"
-  },
-  {
-    "name": "fox.wala.mobile.al.us"
-  },
-  {
-    "name": "fox.wbff.baltimore.md.us"
-  },
-  {
-    "name": "fox.wbrc.birmingham.al.us"
-  },
-  {
-    "name": "fox.wcov.montgomery.al.us"
-  },
-  {
-    "name": "fox.wdaf.kansas.city.mo.us"
-  },
-  {
-    "name": "fox.wdbd.jackson.ms.us"
-  },
-  {
-    "name": "fox.wdky.lexington.ky.us"
-  },
-  {
-    "name": "fox.wdrb.louisville.ky.us"
-  },
-  {
-    "name": "fox.wfft.fort.wayne.in.us"
-  },
-  {
-    "name": "fox.wfld.chicago.il.us"
-  },
-  {
-    "name": "fox.wflx.west.palm.beach.fl.us"
-  },
-  {
-    "name": "fox.wfox.jacksonville.fl.us"
-  },
-  {
-    "name": "fox.wftc.minneapolis.mn.us"
-  },
-  {
-    "name": "fox.wftx.cape.coral.fl.us"
-  },
-  {
-    "name": "fox.wfxb.lumberton.nc.us"
-  },
-  {
-    "name": "fox.wfxg.augusta.ga.us"
-  },
-  {
-    "name": "fox.wfxr.roanoke.va.us"
-  },
-  {
-    "name": "fox.wfxt.boston.ma.us"
-  },
-  {
-    "name": "fox.wfxv.utica.ny.us"
-  },
-  {
-    "name": "fox.wghp.greensboro.nc.us"
-  },
-  {
-    "name": "fox.wgmb.baton.rouge.la.us"
-  },
-  {
-    "name": "fox.wgxa.macon.ga.us"
-  },
-  {
-    "name": "fox.whbq.memphis.tn.us"
-  },
-  {
-    "name": "fox.whns.greenville.sc.us"
-  },
-  {
-    "name": "fox.whpm.meridian.ms.us"
-  },
-  {
-    "name": "fox.wicz.binghamton.ny.us"
-  },
-  {
-    "name": "fox.witi.milwaukee.wi.us"
-  },
-  {
-    "name": "fox.wjbk.detroit.mi.us"
-  },
-  {
-    "name": "fox.wjw.cleveland.oh.us"
-  },
-  {
-    "name": "fox.wjzy.charlotte.nc.us"
-  },
-  {
-    "name": "fox.wluk.green.bay.wi.us"
-  },
-  {
-    "name": "fox.wmsn.madison.wi.us"
-  },
-  {
-    "name": "fox.wnac.e.providence.ri.us"
-  },
-  {
-    "name": "fox.wnyw.new.york.ny.us"
-  },
-  {
-    "name": "fox.wofl.orlando.fl.us"
-  },
-  {
-    "name": "fox.wolf.hazleton.pa.us"
-  },
-  {
-    "name": "fox.wpfo.portland.me.us"
-  },
-  {
-    "name": "fox.wpgh.pittsburgh.pa.us"
-  },
-  {
-    "name": "fox.wpmt.harrisburg.pa.us"
-  },
-  {
-    "name": "fox.wqrf.rockford.il.us"
-  },
-  {
-    "name": "fox.wrlh.richmond.va.us"
-  },
-  {
-    "name": "fox.wsfx.wilmington.nc.us"
-  },
-  {
-    "name": "fox.wsvn.miami.fl.us"
-  },
-  {
-    "name": "fox.wsyt.syracuse.ny.us"
-  },
-  {
-    "name": "fox.wtat.charleston.sc.us"
-  },
-  {
-    "name": "fox.wtgs.savannah.ga.us"
-  },
-  {
-    "name": "fox.wtic.hartford.ct.us"
-  },
-  {
-    "name": "fox.wtnz.knoxville.tn.us"
-  },
-  {
-    "name": "fox.wtte.columbus.oh.us"
-  },
-  {
-    "name": "fox.wttg.district.of.columbia.us"
-  },
-  {
-    "name": "fox.wtvc.dt2.chattanooga.tn.us"
-  },
-  {
-    "name": "fox.wtvt.tampa.bay.fl.us"
-  },
-  {
-    "name": "fox.wtwc.dt2.tallahassee.fl.us"
-  },
-  {
-    "name": "fox.wtxf.philadelphia.pa.us"
-  },
-  {
-    "name": "fox.wupw.toledo.oh.us"
-  },
-  {
-    "name": "fox.wutv.buffalo.ny.us"
-  },
-  {
-    "name": "fox.wvah.huricane.wv.us"
-  },
-  {
-    "name": "fox.wvbt.hampton.roads.va.us"
-  },
-  {
-    "name": "fox.wvue.new.orleans.la.us"
-  },
-  {
-    "name": "fox.wxin.indianapolis.in.us"
-  },
-  {
-    "name": "fox.wxix.cincinnati.oh.us"
-  },
-  {
-    "name": "fox.wxmi.grand.rapids.mi.us"
-  },
-  {
-    "name": "fox.wxtx.columbus.ga.us"
-  },
-  {
-    "name": "fox.wxxa.albany.ny.us"
-  },
-  {
-    "name": "fox.wydo.greenville.nc.us"
-  },
-  {
-    "name": "fox.wyfx.youngstown.oh.us"
-  },
-  {
-    "name": "fox.wzdx.huntsville.al.us"
-  },
-  {
-    "name": "fox.wztv.nashville.tn.us"
-  },
-  {
-    "name": "fox.10.extra.kutp.phoenix.az.us"
-  },
-  {
-    "name": "fox.5.plus.wdca.district.of.columbia.us"
-  },
-  {
-    "name": "fox.wraz.raleighdurham.nc.us"
-  },
-  {
-    "name": "fox.wsmh.us"
-  },
-  {
     "name": "gem.shopping.network.us"
   },
   {
-    "name": "metvn.kaza.us"
-  },
-  {
-    "name": "mnt.kcop.los.angeles.ca.us"
-  },
-  {
-    "name": "mnt.watl.atlanta.ga.us"
-  },
-  {
-    "name": "mnt.wbfs.miami.fl.us"
-  },
-  {
-    "name": "mnt.wmyt.charlotte.nc.us"
-  },
-  {
-    "name": "mnt.wtvz.hampton.roads.va.us"
-  },
-  {
-    "name": "mnt.wwor.new.york.ny.us"
-  },
-  {
-    "name": "my.wuxp.us"
-  },
-  {
-    "name": "mnt.wmyadt5.wmyadt5.us"
-  },
-  {
-    "name": "my48.wmyv.us"
-  },
-  {
-    "name": "nbc.kadn.dt2.lafayette.la.us"
-  },
-  {
-    "name": "nbc.kamr.amarillo.tx.us"
-  },
-  {
-    "name": "nbc.kare.minneapolis.mn.us"
-  },
-  {
-    "name": "nbc.kark.little.rock.ar.us"
-  },
-  {
-    "name": "nbc.kcen.temple.tx.us"
-  },
-  {
-    "name": "nbc.kcra.sacramento.ca.us"
-  },
-  {
-    "name": "nbc.kcwy.casper.wy.us"
-  },
-  {
-    "name": "nbc.kdlt.sioux.falls.sd.us"
-  },
-  {
-    "name": "nbc.kfor.oklahoma.city.ok.us"
-  },
-  {
-    "name": "nbc.kfyr.bismarck.nd.us"
-  },
-  {
-    "name": "nbc.kget.bakersfield.ca.us"
-  },
-  {
-    "name": "nbc.kgw.portland.or.us"
-  },
-  {
-    "name": "nbc.khnl.honolulu.hi.us"
-  },
-  {
-    "name": "nbc.khq.spokane.wa.us"
-  },
-  {
-    "name": "nbc.king.seattle.wa.us"
-  },
-  {
-    "name": "nbc.kjrh.tulsa.ok.us"
-  },
-  {
-    "name": "nbc.kkco.grand.junction.co.us"
-  },
-  {
-    "name": "nbc.knbc.los.angeles.ca.us"
-  },
-  {
-    "name": "nbc.knsd.san.diego.ca.us"
-  },
-  {
-    "name": "nbc.kntv.san.francisco.ca.us"
-  },
-  {
-    "name": "nbc.koaa.colorado.springs.co.us"
-  },
-  {
-    "name": "nbc.kob.albuquerque.nm.us"
-  },
-  {
-    "name": "nbc.komu.columbia.mo.us"
-  },
-  {
-    "name": "nbc.kplc.lake.charles.la.us"
-  },
-  {
-    "name": "nbc.kpnx.phoenix.az.us"
-  },
-  {
-    "name": "nbc.kprc.houston.tx.us"
-  },
-  {
-    "name": "nbc.kris.corpus.christi.tx.us"
-  },
-  {
-    "name": "nbc.krnv.reno.nv.us"
-  },
-  {
-    "name": "nbc.ksby.santa.barbara.ca.us"
-  },
-  {
-    "name": "nbc.ksdk.st.louis.mo.us"
-  },
-  {
-    "name": "nbc.ksee.dt1.fresno.ca.us"
-  },
-  {
-    "name": "nbc.kshb.kansas.city.mo.us"
-  },
-  {
-    "name": "nbc.ksl.salt.lake.city.ut.us"
-  },
-  {
-    "name": "nbc.ksnf.joplin.mo.us"
-  },
-  {
-    "name": "nbc.ksnt.topeka.ks.us"
-  },
-  {
-    "name": "nbc.ksnv.las.vegas.nv.us"
-  },
-  {
-    "name": "nbc.ksnw.wichita.ks.us"
-  },
-  {
-    "name": "nbc.ktal.shreveport.la.us"
-  },
-  {
-    "name": "nbc.ktgf.ld.helena.mt.us"
-  },
-  {
-    "name": "nbc.ktiv.sioux.city.ia.us"
-  },
-  {
-    "name": "nbc.ktsm.el.paso.tx.us"
-  },
-  {
-    "name": "nbc.kttc.rochester.mn.us"
-  },
-  {
-    "name": "nbc.ktvb.boise.id.us"
-  },
-  {
-    "name": "nbc.ktvf.fairbanks.ak.us"
-  },
-  {
-    "name": "nbc.kusa.denver.co.us"
-  },
-  {
-    "name": "nbc.kveo.brownsville.tx.us"
-  },
-  {
-    "name": "nbc.kvly.fargo.nd.us"
-  },
-  {
-    "name": "nbc.kvoa.tucson.az.us"
-  },
-  {
-    "name": "nbc.kwes.midland.tx.us"
-  },
-  {
-    "name": "nbc.kwqc.quad.cities.ia.us"
-  },
-  {
-    "name": "nbc.kwwl.waterloo.ia.us"
-  },
-  {
-    "name": "nbc.kxan.austin.tx.us"
-  },
-  {
-    "name": "nbc.kxas.fort.worth.tx.us"
-  },
-  {
-    "name": "nbc.wral.raleighdurham.nc.us"
-  },
-  {
-    "name": "nbc.waff.hunstville.al.us"
-  },
-  {
-    "name": "nbc.wagt.augusta.ga.us"
-  },
-  {
-    "name": "nbc.walb.albany.ga.us"
-  },
-  {
-    "name": "nbc.wave.louisville.ky.us"
-  },
-  {
-    "name": "nbc.wavy.hampton.roads.va.us"
-  },
-  {
-    "name": "nbc.wbal.baltimore.md.us"
-  },
-  {
-    "name": "nbc.wbbh.fort.myers.fl.us"
-  },
-  {
-    "name": "nbc.wbgh.binghampton.ny.us"
-  },
-  {
-    "name": "nbc.wbir.knoxville.tn.us"
-  },
-  {
-    "name": "nbc.wbre.wilkesbarre.pa.us"
-  },
-  {
-    "name": "nbc.wbts.ld.boston.ma.us"
-  },
-  {
-    "name": "nbc.wcau.philadelphia.pa.us"
-  },
-  {
-    "name": "nbc.wcbd.charleston.sc.us"
-  },
-  {
-    "name": "nbc.wcmh.columbus.oh.us"
-  },
-  {
-    "name": "nbc.wcnc.charlotte.nc.us"
-  },
-  {
-    "name": "nbc.wcsh.portland.me.us"
-  },
-  {
-    "name": "nbc.wcyb.bristol.va.us"
-  },
-  {
-    "name": "nbc.wdam.laurel.ms.us"
-  },
-  {
-    "name": "nbc.wdiv.detroit.mi.us"
-  },
-  {
-    "name": "nbc.wdsu.new.orleans.la.us"
-  },
-  {
-    "name": "nbc.wdtn.dayton.oh.us"
-  },
-  {
-    "name": "nbc.wect.wilmington.nc.us"
-  },
-  {
-    "name": "nbc.wesh.winter.park.fl.us"
-  },
-  {
-    "name": "nbc.wetm.elmira.ny.us"
-  },
-  {
-    "name": "nbc.wfla.tampa.bay.fl.us"
-  },
-  {
-    "name": "nbc.wfmj.youngstown.oh.us"
-  },
-  {
-    "name": "nbc.wgal.lancaster.pa.us"
-  },
-  {
-    "name": "nbc.wgba.green.bay.wi.us"
-  },
-  {
-    "name": "nbc.wgem.quincy.il.us"
-  },
-  {
-    "name": "nbc.wgrz.buffalo.ny.us"
-  },
-  {
-    "name": "nbc.whec.rochester.ny.us"
-  },
-  {
-    "name": "nbc.who.des.moines.ia.us"
-  },
-  {
-    "name": "nbc.wis.columbia.sc.us"
-  },
-  {
-    "name": "nbc.witn.greenville.nc.us"
-  },
-  {
-    "name": "nbc.wjac.johnstown.pa.us"
-  },
-  {
-    "name": "nbc.wjar.cranston.ri.us"
-  },
-  {
-    "name": "nbc.wjhg.panama.city.beach.fl.us"
-  },
-  {
-    "name": "nbc.wktv.utica.ny.us"
-  },
-  {
-    "name": "nbc.wkyc.cleveland.oh.us"
-  },
-  {
-    "name": "nbc.wlbt.jackson.ms.us"
-  },
-  {
-    "name": "nbc.wlbz.bangor.me.us"
-  },
-  {
-    "name": "nbc.wlex.lexington.ky.us"
-  },
-  {
-    "name": "nbc.wltz.columbus.ga.us"
-  },
-  {
-    "name": "nbc.wlwt.cincinnati.oh.us"
-  },
-  {
-    "name": "nbc.wmaq.chicago.il.us"
-  },
-  {
-    "name": "nbc.wmbf.myrtle.beach.sc.us"
-  },
-  {
-    "name": "nbc.wmc.memphis.tn.us"
-  },
-  {
-    "name": "nbc.wmgt.macon.ga.us"
-  },
-  {
-    "name": "nbc.wmtv.madison.wi.us"
-  },
-  {
-    "name": "nbc.wnbc.new.york.ny.us"
-  },
-  {
-    "name": "nbc.wnbw.dt.gainesville.fl.us"
-  },
-  {
-    "name": "nbc.wndu.south.bend.in.us"
-  },
-  {
-    "name": "nbc.wnky.bowling.green.ky.us"
-  },
-  {
-    "name": "nbc.wnwo.toledo.oh.us"
-  },
-  {
-    "name": "nbc.wnyt.albany.ny.us"
-  },
-  {
-    "name": "nbc.woai.san.antonio.tx.us"
-  },
-  {
-    "name": "nbc.wood.grand.rapids.mi.us"
-  },
-  {
-    "name": "nbc.wowt.omaha.ne.us"
-  },
-  {
-    "name": "nbc.wpmi.mobile.al.us"
-  },
-  {
-    "name": "nbc.wpsd.paducah.ky.us"
-  },
-  {
-    "name": "nbc.wpta.dt2.ft.wayne.in.us"
-  },
-  {
-    "name": "nbc.wptv.west.palm.beach.fl.us"
-  },
-  {
-    "name": "nbc.wptz.plattsburg.ny.us"
-  },
-  {
-    "name": "nbc.wpxi.pittsburgh.pa.us"
-  },
-  {
-    "name": "nbc.wrc.district.of.columbia.us"
-  },
-  {
-    "name": "nbc.wrcb.chattanooga.tn.us"
-  },
-  {
-    "name": "nbc.wrde.salisbury.md.us"
-  },
-  {
-    "name": "nbc.wrex.rockford.il.us"
-  },
-  {
-    "name": "nbc.wsav.savannah.ga.us"
-  },
-  {
-    "name": "nbc.wsaz.huntington.wv.us"
-  },
-  {
-    "name": "nbc.wsfa.montgomery.al.us"
-  },
-  {
-    "name": "nbc.wsls.roanoke.va.us"
-  },
-  {
-    "name": "nbc.wsmv.nashville.tn.us"
-  },
-  {
-    "name": "nbc.wstm.syracuse.ny.us"
-  },
-  {
-    "name": "nbc.wthr.indianapolis.in.us"
-  },
-  {
-    "name": "nbc.wtlv.jacksonville.fl.us"
-  },
-  {
-    "name": "nbc.wtmj.milwaukee.wi.us"
-  },
-  {
-    "name": "nbc.wtov.steubenville.oh.us"
-  },
-  {
-    "name": "nbc.wtva.tupelo.ms.us"
-  },
-  {
-    "name": "nbc.wtvj.miami.fl.us"
-  },
-  {
-    "name": "nbc.wvit.w.hartford.ct.us"
-  },
-  {
-    "name": "nbc.wvla.baton.rouge.la.us"
-  },
-  {
-    "name": "nbc.wvtm.birmingham.al.us"
-  },
-  {
-    "name": "nbc.wwbt.richmond.va.us"
-  },
-  {
-    "name": "nbc.wwlp.springfield.ma.us"
-  },
-  {
-    "name": "nbc.wxia.atlanta.ga.us"
-  },
-  {
-    "name": "nbc.wxii.winstonsalem.nc.us"
-  },
-  {
-    "name": "nbc.wyff.greenville.sc.us"
-  },
-  {
     "name": "nbc.universo.eastern.us"
-  },
-  {
-    "name": "nbc.weyi.us"
   },
   {
     "name": "news.12.bronx.us"
@@ -2529,46 +840,7 @@
     "name": "news.12.new.jersey.us"
   },
   {
-    "name": "news.12.westchester.us"
-  },
-  {
     "name": "pbs.gpb.us"
-  },
-  {
-    "name": "pbs.ketc.st.louis.mo.us"
-  },
-  {
-    "name": "pbs.kiin.iowa.city.ia.us"
-  },
-  {
-    "name": "pbs.klrn.san.antonio.tx.us"
-  },
-  {
-    "name": "pbs.kuac.fairbanks.ak.us"
-  },
-  {
-    "name": "pbs.whyy.wilmington.de.us"
-  },
-  {
-    "name": "pbs.wjct.jacksonville.fl.us"
-  },
-  {
-    "name": "pbs.wmem.presque.isle.me.us"
-  },
-  {
-    "name": "pbs.wned.buffalo.ny.us"
-  },
-  {
-    "name": "pbs.wnet.new.york.ny.us"
-  },
-  {
-    "name": "pbs.wpbt.west.palm.beach.fl.us"
-  },
-  {
-    "name": "pbs.wyes.new.orleans.la.us"
-  },
-  {
-    "name": "peachtree.tv.wpch.tv.atlanta.ga.us"
   },
   {
     "name": "wfmz.allentown.pa.us"
@@ -2614,9 +886,6 @@
   },
   {
     "name": "national.geographic.us.eastern.us"
-  },
-  {
-    "name": "national.geographic.wild.us"
   },
   {
     "name": "rt.documentary.us"
@@ -2676,9 +945,6 @@
     "name": "stingray.hot.country.us"
   },
   {
-    "name": "stingray.karaoke.on.demand.1.us"
-  },
-  {
     "name": "stingray.latido.us"
   },
   {
@@ -2712,9 +978,6 @@
     "name": "accuweather.us"
   },
   {
-    "name": "bbc.world.north.america.us"
-  },
-  {
     "name": "bloomberg.tv.usa.us"
   },
   {
@@ -2722,9 +985,6 @@
   },
   {
     "name": "cnbc.usa.us"
-  },
-  {
-    "name": "cnbc.world.us"
   },
   {
     "name": "cnn.international.north.america.us"
@@ -2754,9 +1014,6 @@
     "name": "rt.russia.today.us"
   },
   {
-    "name": "the.weather.channel.us"
-  },
-  {
     "name": "acc.network.us"
   },
   {
@@ -2767,9 +1024,6 @@
   },
   {
     "name": "att.sportsnet.rocky.mountains.us"
-  },
-  {
-    "name": "att.sportsnet.southwest.houston.us"
   },
   {
     "name": "fox.sports.arizona.plus.us"
@@ -2799,12 +1053,6 @@
     "name": "fox.sports.indiana.us"
   },
   {
-    "name": "fox.sports.midwest.kansas.city.us"
-  },
-  {
-    "name": "fox.sports.midwest.us"
-  },
-  {
     "name": "fox.sports.new.orleans.plus.us"
   },
   {
@@ -2832,9 +1080,6 @@
     "name": "fox.sports.southeast.us"
   },
   {
-    "name": "fox.sports.southwest.us"
-  },
-  {
     "name": "bally.sports.sun.us"
   },
   {
@@ -2842,12 +1087,6 @@
   },
   {
     "name": "fox.sports.southeast.tennessee.us"
-  },
-  {
-    "name": "fox.sports.west.us"
-  },
-  {
-    "name": "fox.sports.wisconsin.us"
   },
   {
     "name": "bein.sports.1.us"
@@ -2982,9 +1221,6 @@
     "name": "nbc.sports.philadelphia.plus.us"
   },
   {
-    "name": "nbc.sports.washington.us"
-  },
-  {
     "name": "new.england.sports.network.plus.us"
   },
   {
@@ -3021,16 +1257,10 @@
     "name": "pac.12.oregon.us"
   },
   {
-    "name": "pac.12.washington.us"
-  },
-  {
     "name": "poker.go.us"
   },
   {
     "name": "redbull.us"
-  },
-  {
-    "name": "root.sports.northwest.us"
   },
   {
     "name": "sec.network.us"
@@ -3426,9 +1656,6 @@
     "name": "nba.detroit.pistons.us"
   },
   {
-    "name": "nba.golden.state.warriors.us"
-  },
-  {
     "name": "nba.houston.rockets.us"
   },
   {
@@ -3456,9 +1683,6 @@
     "name": "nba.new.orleans.pelicans.us"
   },
   {
-    "name": "nba.new.york.knicks.us"
-  },
-  {
     "name": "nba.oklahoma.city.thunder.us"
   },
   {
@@ -3474,9 +1698,6 @@
     "name": "nba.portland.trail.blazers.us"
   },
   {
-    "name": "nba.sacramento.kings.us"
-  },
-  {
     "name": "nba.san.antonio.spurs.us"
   },
   {
@@ -3487,9 +1708,6 @@
   },
   {
     "name": "nba.utah.jazz.us"
-  },
-  {
-    "name": "nba.washington.wizards.us"
   },
   {
     "name": "ncaab.2.us"
@@ -3600,9 +1818,6 @@
     "name": "nfl.jac.us"
   },
   {
-    "name": "nfl.kc.us"
-  },
-  {
     "name": "nfl.lv.us"
   },
   {
@@ -3652,9 +1867,6 @@
   },
   {
     "name": "nfl.ten.us"
-  },
-  {
-    "name": "nfl.was.us"
   },
   {
     "name": "ncaab.31.us"
@@ -3807,9 +2019,6 @@
     "name": "mlb.teams.hou.us"
   },
   {
-    "name": "mlb.teams.kc.us"
-  },
-  {
     "name": "mlb.teams.laa.us"
   },
   {
@@ -3865,9 +2074,6 @@
   },
   {
     "name": "mlb.teams.tor.us"
-  },
-  {
-    "name": "mlb.teams.wsh.us"
   },
   {
     "name": "mlb.game2.2.us"
@@ -4173,9 +2379,6 @@
     "name": "hbo.eastern.us"
   },
   {
-    "name": "hbo.west.us"
-  },
-  {
     "name": "hbo.2.eastern.us"
   },
   {
@@ -4218,9 +2421,6 @@
     "name": "outermax.eastern.us"
   },
   {
-    "name": "oprah.winfrey.network.usa.eastern.us"
-  },
-  {
     "name": "paramount.network.usa.eastern.us"
   },
   {
@@ -4228,9 +2428,6 @@
   },
   {
     "name": "showtime.eastern.us"
-  },
-  {
-    "name": "showtime.west.us"
   },
   {
     "name": "showtime.2.eastern.us"
@@ -4261,12 +2458,6 @@
   },
   {
     "name": "showtime.showcase.pacific.us"
-  },
-  {
-    "name": "showtime.women.eastern.us"
-  },
-  {
-    "name": "showtime.women.pacific.us"
   },
   {
     "name": "shoxbet.eastern.us"
@@ -4332,25 +2523,13 @@
     "name": "starz.encore.suspense.pacific.us"
   },
   {
-    "name": "starz.encore.westerns.pacific.us"
-  },
-  {
     "name": "starz.in.black.eastern.us"
   },
   {
     "name": "starz.in.black.pacific.us"
   },
   {
-    "name": "starz.kids.family.pacific.us"
-  },
-  {
-    "name": "starz.kids.family.eastern.us"
-  },
-  {
     "name": "starz.encore.suspense.eastern.us"
-  },
-  {
-    "name": "starz.encore.westerns.eastern.us"
   },
   {
     "name": "syfy.eastern.us"
@@ -4373,6 +2552,169 @@
   {
     "name": "5.usa.uk"
   },
+  {
+    "name": "ptc.punjabi.us"
+  },
+  {
+    "name": "baby.first.tv.us"
+  },
+  {
+    "name": "boomerang.us"
+  },
+  {
+    "name": "cartoon.network.usa.eastern.us"
+  },
+  {
+    "name": "cartoon.network.usa.pacific.us"
+  },
+  {
+    "name": "disney.eastern.us"
+  },
+  {
+    "name": "disney.junior.usa.east.us"
+  },
+  {
+    "name": "disney.xd.usa.eastern.us"
+  },
+  {
+    "name": "nick.jr.us"
+  },
+  {
+    "name": "nickelodeon.usa.east.us"
+  },
+  {
+    "name": "nickelodeon.usa.pacific.us"
+  },
+  {
+    "name": "nickmusic.us"
+  },
+  {
+    "name": "nicktoons.east.us"
+  },
+  {
+    "name": "teennick.eastern.us"
+  },
+  {
+    "name": "bandamax.us"
+  },
+  {
+    "name": "bein.sport.en.espanol.us"
+  },
+  {
+    "name": "centroamerica.tv.us"
+  },
+  {
+    "name": "cine.estelar.us"
+  },
+  {
+    "name": "cine.sony.us"
+  },
+  {
+    "name": "cnn.espaol.us"
+  },
+  {
+    "name": "de.pelicula.clasico.us"
+  },
+  {
+    "name": "de.pelicula.us"
+  },
+  {
+    "name": "discovery.en.espanol.us"
+  },
+  {
+    "name": "discovery.familia.us"
+  },
+  {
+    "name": "espn.deportes.us"
+  },
+  {
+    "name": "estrella.tv.us"
+  },
+  {
+    "name": "fox.deportes.us"
+  },
+  {
+    "name": "galavision.eastern.us"
+  },
+  {
+    "name": "gol.tv.espanol.us"
+  },
+  {
+    "name": "mtv.tr3s.east.us"
+  },
+  {
+    "name": "pasiones.east.us"
+  },
+  {
+    "name": "rcn.nuestra.tele.us"
+  },
+  {
+    "name": "rtpi.america.us"
+  },
+  {
+    "name": "telehit.us"
+  },
+  {
+    "name": "telemundo.puerto.rico.pr.us"
+  },
+  {
+    "name": "tudn.us"
+  },
+  {
+    "name": "tudnxtra.1.us"
+  },
+  {
+    "name": "tudnxtra.10.us"
+  },
+  {
+    "name": "tudnxtra.2.us"
+  },
+  {
+    "name": "tudnxtra.3.us"
+  },
+  {
+    "name": "tudnxtra.4.us"
+  },
+  {
+    "name": "tudnxtra.5.us"
+  },
+  {
+    "name": "tudnxtra.6.us"
+  },
+  {
+    "name": "tudnxtra.7.us"
+  },
+  {
+    "name": "tudnxtra.8.us"
+  },
+  {
+    "name": "tudnxtra.9.us"
+  },
+  {
+    "name": "unimas.network.east.us"
+  },
+  {
+    "name": "univision.eastern.us"
+  },
+  {
+    "name": "univision.tlnovelas.us"
+  },
+  {
+    "name": "wapa.america.us"
+  },
+  {
+    "name": "rtn.russian.television.network.us"
+  },
+  {
+    "name": "espn.us"
+  },
+  {
+    "name": "espn2.us"
+  },
+  {
+    "name": "espn.news.us"
+  }
+][
   {
     "name": "a.e.br"
   },
@@ -4407,16 +2749,10 @@
     "name": "discovery.civilization.br"
   },
   {
-    "name": "discovery.kids.br"
-  },
-  {
     "name": "discovery.sciene.br"
   },
   {
     "name": "discovery.turbo.br"
-  },
-  {
-    "name": "discovery.world.br"
   },
   {
     "name": "disney.br"
@@ -4632,298 +2968,22 @@
     "name": "woohoo.br"
   },
   {
-    "name": "ptc.punjabi.us"
-  },
-  {
     "name": "big.brother.il"
-  },
-  {
-    "name": "baby.first.tv.us"
-  },
-  {
-    "name": "boomerang.us"
-  },
-  {
-    "name": "cartoon.network.usa.eastern.us"
-  },
-  {
-    "name": "cartoon.network.usa.pacific.us"
-  },
-  {
-    "name": "disney.eastern.us"
-  },
-  {
-    "name": "disney.junior.usa.east.us"
-  },
-  {
-    "name": "disney.xd.usa.eastern.us"
-  },
-  {
-    "name": "nick.jr.us"
-  },
-  {
-    "name": "nickelodeon.usa.east.us"
-  },
-  {
-    "name": "nickelodeon.usa.pacific.us"
-  },
-  {
-    "name": "nickmusic.us"
-  },
-  {
-    "name": "nicktoons.east.us"
-  },
-  {
-    "name": "pbs.kids.us"
-  },
-  {
-    "name": "teennick.eastern.us"
-  },
-  {
-    "name": "universal.kids.us"
-  },
-  {
-    "name": "3abn.latino.w44ct.dt4.albany.ny.us"
-  },
-  {
-    "name": "bandamax.us"
-  },
-  {
-    "name": "bein.sport.en.espanol.us"
-  },
-  {
-    "name": "centroamerica.tv.us"
-  },
-  {
-    "name": "cine.estelar.us"
-  },
-  {
-    "name": "cine.sony.us"
-  },
-  {
-    "name": "cnn.espaol.us"
-  },
-  {
-    "name": "de.pelicula.clasico.us"
-  },
-  {
-    "name": "de.pelicula.us"
-  },
-  {
-    "name": "discovery.en.espanol.us"
-  },
-  {
-    "name": "discovery.familia.us"
-  },
-  {
-    "name": "espn.deportes.us"
   },
   {
     "name": "espn.extra.br"
   },
   {
-    "name": "estrella.tv.us"
-  },
-  {
-    "name": "fox.deportes.us"
-  },
-  {
     "name": "fox.premium.1.br"
-  },
-  {
-    "name": "galavision.eastern.us"
-  },
-  {
-    "name": "gol.tv.espanol.us"
   },
   {
     "name": "golf.channel.br"
   },
   {
-    "name": "mtv.tr3s.east.us"
-  },
-  {
-    "name": "pasiones.east.us"
-  },
-  {
     "name": "rbs.tv.santa.maria.br"
   },
   {
-    "name": "rcn.nuestra.tele.us"
-  },
-  {
-    "name": "rtpi.america.us"
-  },
-  {
-    "name": "telehit.us"
-  },
-  {
-    "name": "telemundo.kblr.las.vegas.nv.us"
-  },
-  {
-    "name": "telemundo.kden.longmont.co.us"
-  },
-  {
-    "name": "telemundo.khrr.tucson.az.us"
-  },
-  {
-    "name": "telemundo.knso.fresno.ca.us"
-  },
-  {
-    "name": "telemundo.ksts.san.jose.ca.us"
-  },
-  {
-    "name": "telemundo.ktaz.phoenix.az.us"
-  },
-  {
-    "name": "telemundo.ktdo.el.paso.tx.us"
-  },
-  {
-    "name": "telemundo.ktlm.brownsville.tx.us"
-  },
-  {
-    "name": "telemundo.ktmd.houston.tx.us"
-  },
-  {
-    "name": "telemundo.kuan.san.diego.ca.us"
-  },
-  {
-    "name": "telemundo.kvda.san.antonio.tx.us"
-  },
-  {
-    "name": "telemundo.kvea.los.angeles.ca.us"
-  },
-  {
-    "name": "telemundo.kxtx.dallas.tx.us"
-  },
-  {
-    "name": "telemundo.wktb.cd2.atlanta.ga.us"
-  },
-  {
-    "name": "telemundo.wneu.manchester.ma.us"
-  },
-  {
-    "name": "telemundo.wnju.teterboro.nj.us"
-  },
-  {
-    "name": "telemundo.wrmd.tampa.fl.us"
-  },
-  {
-    "name": "telemundo.wscv.fort.lauderdale.fl.us"
-  },
-  {
-    "name": "telemundo.wsns.chicago.il.us"
-  },
-  {
-    "name": "telemundo.wwdt.cd.fort.myers.fl.us"
-  },
-  {
-    "name": "telemundo.wwsi.philadelphia.pa.us"
-  },
-  {
-    "name": "telemundo.wzdc.washington.dc.us"
-  },
-  {
-    "name": "telemundo.puerto.rico.pr.us"
-  },
-  {
-    "name": "tudn.us"
-  },
-  {
-    "name": "tudnxtra.1.us"
-  },
-  {
-    "name": "tudnxtra.10.us"
-  },
-  {
-    "name": "tudnxtra.2.us"
-  },
-  {
-    "name": "tudnxtra.3.us"
-  },
-  {
-    "name": "tudnxtra.4.us"
-  },
-  {
-    "name": "tudnxtra.5.us"
-  },
-  {
-    "name": "tudnxtra.6.us"
-  },
-  {
-    "name": "tudnxtra.7.us"
-  },
-  {
-    "name": "tudnxtra.8.us"
-  },
-  {
-    "name": "tudnxtra.9.us"
-  },
-  {
     "name": "tv5.br"
-  },
-  {
-    "name": "uni.kakw.austin.tx.us"
-  },
-  {
-    "name": "uni.kdtv.san.francisco.ca.us"
-  },
-  {
-    "name": "uni.kftv.fresno.ca.us"
-  },
-  {
-    "name": "uni.kmex.los.angeles.ca.us"
-  },
-  {
-    "name": "uni.kuvn.cd.fort.worth.tx.us"
-  },
-  {
-    "name": "uni.kwex.san.antonio.tx.us"
-  },
-  {
-    "name": "uni.kxln.houston.tx.us"
-  },
-  {
-    "name": "uni.wgbo.chicago.il.us"
-  },
-  {
-    "name": "uni.wltv.miami.fl.us"
-  },
-  {
-    "name": "uni.wuvg.atlanta.ga.us"
-  },
-  {
-    "name": "uni.wxtv.teaneck.nj.us"
-  },
-  {
-    "name": "uni.wlii.puerto.rico.us"
-  },
-  {
-    "name": "unims.wfut.new.york.ny.us"
-  },
-  {
-    "name": "unimas.network.east.us"
-  },
-  {
-    "name": "univision.eastern.us"
-  },
-  {
-    "name": "univision.tlnovelas.us"
-  },
-  {
-    "name": "wapa.america.us"
-  },
-  {
-    "name": "rtn.russian.television.network.us"
-  },
-  {
-    "name": "espn.us"
-  },
-  {
-    "name": "espn2.us"
-  },
-  {
-    "name": "espn.news.us"
   },
   {
     "name": "band.br"
