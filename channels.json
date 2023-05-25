@@ -3,7 +3,8 @@
     "name": "5.star.max.eastern.us"
   },
   {
-    "name": "acc.network.us"
+    "name": "acc.network.us",
+    "logo": "https://www.dropbox.com/s/ip23cmrh1u2cjbo/acc.network.us.png?raw=1"
   },
   {
     "name": "actionmax.eastern.us"
@@ -84,16 +85,20 @@
     "name": "epix2.east.us"
   },
   {
-    "name": "espn.news.us"
+    "name": "espn.news.us",
+    "logo": "https://www.dropbox.com/s/pjctan9o8w1jhyf/espnews.png?raw=1"
   },
   {
-    "name": "espn.u.us"
+    "name": "espn.u.us",
+    "logo": "https://www.dropbox.com/s/u0lkocd9afa70mo/espnu.png?raw=1"
   },
   {
-    "name": "espn.us"
+    "name": "espn.us",
+    "logo": "https://www.dropbox.com/s/h2j0h37vnl0okor/espn.png?raw=1"
   },
   {
-    "name": "espn2.us"
+    "name": "espn2.us",
+    "logo": "https://www.dropbox.com/s/xmocmu3fpqg06fr/espn2.png?raw=1"
   },
   {
     "name": "food.network.usa.eastern.us"
@@ -105,10 +110,12 @@
     "name": "fox.news.us"
   },
   {
-    "name": "fox.sports.1.us"
+    "name": "fox.sports.1.us",
+    "logo": "https://www.dropbox.com/s/lncf32na64thuod/fs1.png?raw=1"
   },
   {
-    "name": "fox.sports.2.us"
+    "name": "fox.sports.2.us",
+    "logo": "https://www.dropbox.com/s/hgl8brllqi11l5c/fs2.png?raw=1"
   },
   {
     "name": "fx.movie.channel.us"
@@ -123,7 +130,8 @@
     "name": "fyi.usa.eastern.us"
   },
   {
-    "name": "golf.channel.usa.us"
+    "name": "golf.channel.usa.us",
+    "logo": "https://www.dropbox.com/s/7adrduqxfbq6wbm/golf.channel.usa.us.png?raw=1"
   },
   {
     "name": "hallmark.channel.eastern.us"
