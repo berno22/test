@@ -187,6 +187,10 @@
         channelChunks.forEach(channelChunk => {
           const channelContainer = document.createElement('div');
           channelContainer.classList.add('icon-container');
+          channelContainer.style.display = 'flex';
+          channelContainer.style.justifyContent = 'space-between';
+          channelContainer.style.alignItems = 'center';
+          channelContainer.style.width = '60vw';
 
           channelChunk.forEach(channel => {
             const name = channel.name;
