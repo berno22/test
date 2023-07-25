@@ -52,6 +52,15 @@
         width: 100px;
         opacity: 1;
       }
+      .link {
+        color: white;
+        text-decoration: none;
+        line-height: 1.8;
+        opacity: 0.4;
+      }
+      .my-heading {
+        text-align: center;
+      }
       #myPlayer {
         display: none;
         width: 60vw;
@@ -61,7 +70,8 @@
         display: none;
       }
       .video-js .vjs-control-bar {
-        height: 0px;
+        /*height: 0px;*/
+        font-size: 30px;
       }
     </style>
   </head>
@@ -103,8 +113,10 @@
       </a>
     </div>
 
-    <h2>
-      <Text id="closeFrame" onclick="closeFrame()">Live</Text>
+    <h2 class="my-heading">
+      <a class="link" href="https://berno22.github.io/">All Media</a>
+      <br>
+      <Text id="closeFrame" onclick="closeFrame()">  Live</Text>
       <Text id="bullet"> &bull;</Text>
     </h2>
 
