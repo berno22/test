@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet" />
+    <script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
+    <style>
+        body {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .video-container {
+            width: 1080px;
+            height: 700px;
+        }
+
+        .video-js {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <video id="my-video" class="video-js" controls preload="auto" data-setup="{}">
+            <source src="https://soccer.freesportstime.com/live/stream_f1.m3u8" type="application/x-mpegURL">
+        </video>
+    </div>
+
+    <script>
+        // Add any additional JavaScript code here
+    </script>
+</body>
+</html>
