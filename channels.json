@@ -66,13 +66,13 @@
     "logo": "https://www.dropbox.com/s/7adrduqxfbq6wbm/golf.channel.usa.us.png?raw=1"
   },
   {
+    "name": "hbo.eastern.us"
+  },
+  {
     "name": "hbo.2.eastern.us"
   },
   {
     "name": "hbo.comedy.east.us"
-  },
-  {
-    "name": "hbo.eastern.us"
   },
   {
     "name": "hbo.family.eastern.us"
@@ -88,6 +88,9 @@
   },
   {
     "name": "mgm.usa.us"
+  },
+  {
+    "name": "nasa.4k.us"
   },
   {
     "name": "cinemax.eastern.us"
@@ -112,9 +115,6 @@
   },
   {
     "name": "msnbc.usa.us"
-  },
-  {
-    "name": "nasa.4k.us"
   },
   {
     "name": "national.geographic.us.eastern.us"
