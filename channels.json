@@ -19,9 +19,6 @@
     "name": "cartoon.network.usa.eastern.us"
   },
   {
-    "name": "cinemax.eastern.us"
-  },
-  {
     "name": "cnbc.usa.us"
   },
   {
@@ -35,9 +32,6 @@
   },
   {
     "name": "discovery.family.channel.us"
-  },
-  {
-    "name": "discovery.life.channel.us"
   },
   {
     "name": "disney.eastern.us"
@@ -56,9 +50,6 @@
   },
   {
     "name": "epix2.east.us"
-  },
-  {
-    "name": "food.network.usa.eastern.us"
   },
   {
     "name": "fox.business.us"
@@ -113,6 +104,9 @@
   },
   {
     "name": "mgm.usa.us"
+  },
+  {
+    "name": "cinemax.eastern.us"
   },
   {
     "name": "5.star.max.eastern.us"
