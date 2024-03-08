@@ -7,9 +7,6 @@
     "logo": "https://www.dropbox.com/s/ip23cmrh1u2cjbo/acc.network.us.png?raw=1"
   },
   {
-    "name": "actionmax.eastern.us"
-  },
-  {
     "name": "ae.us.eastern.us"
   },
   {
@@ -17,9 +14,6 @@
   },
   {
     "name": "bloomberg.tv.usa.us"
-  },
-  {
-    "name": "boomerang.us"
   },
   {
     "name": "bravo.usa.eastern.us"
@@ -38,9 +32,6 @@
   },
   {
     "name": "comedy.central.eastern.us"
-  },
-  {
-    "name": "court.tv.network.us"
   },
   {
     "name": "discovery.channel.us.eastern.us"
@@ -96,9 +87,6 @@
     "name": "fxx.usa.eastern.us"
   },
   {
-    "name": "fyi.usa.eastern.us"
-  },
-  {
     "name": "golf.channel.usa.us",
     "logo": "https://www.dropbox.com/s/7adrduqxfbq6wbm/golf.channel.usa.us.png?raw=1"
   },
@@ -124,19 +112,22 @@
     "name": "hgtv.usa.eastern.us"
   },
   {
-    "name": "investigation.discovery.usa.eastern.us"
-  },
-  {
     "name": "mavtv.usa.us"
   },
   {
     "name": "mgm.usa.us"
   },
   {
+    "name": "actionmax.eastern.us"
+  },
+  {
     "name": "moremax.eastern.us"
   },
   {
     "name": "moviemax.us"
+  },
+  {
+    "name": "thrillermax.east.us"
   },
   {
     "name": "msnbc.usa.us"
@@ -223,9 +214,6 @@
     "name": "tbs.east.us"
   },
   {
-    "name": "thrillermax.east.us"
-  },
-  {
     "name": "tnt.east.us"
   },
   {
@@ -246,10 +234,6 @@
     "name": "eppvjpkd.ss"
   },
   {
-    "name": "espn.news.us",
-    "logo": "https://www.dropbox.com/s/pjctan9o8w1jhyf/espnews.png?raw=1"
-  },
-  {
     "name": "espn.u.us",
     "logo": "https://www.dropbox.com/s/u0lkocd9afa70mo/espnu.png?raw=1"
   },
@@ -260,6 +244,10 @@
   {
     "name": "espn2.us",
     "logo": "https://www.dropbox.com/s/xmocmu3fpqg06fr/espn2.png?raw=1"
+  },
+  {
+    "name": "espn.news.us",
+    "logo": "https://www.dropbox.com/s/pjctan9o8w1jhyf/espnews.png?raw=1"
   },
   {
     "name": "tsn1.ca",
