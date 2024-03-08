@@ -70,22 +70,6 @@
     "name": "epix2.east.us"
   },
   {
-    "name": "espn.news.us",
-    "logo": "https://www.dropbox.com/s/pjctan9o8w1jhyf/espnews.png?raw=1"
-  },
-  {
-    "name": "espn.u.us",
-    "logo": "https://www.dropbox.com/s/u0lkocd9afa70mo/espnu.png?raw=1"
-  },
-  {
-    "name": "espn.us",
-    "logo": "https://www.dropbox.com/s/h2j0h37vnl0okor/espn.png?raw=1"
-  },
-  {
-    "name": "espn2.us",
-    "logo": "https://www.dropbox.com/s/xmocmu3fpqg06fr/espn2.png?raw=1"
-  },
-  {
     "name": "food.network.usa.eastern.us"
   },
   {
@@ -249,6 +233,22 @@
   },
   {
     "name": "usa.network.east.us"
+  },
+  {
+    "name": "espn.news.us",
+    "logo": "https://www.dropbox.com/s/pjctan9o8w1jhyf/espnews.png?raw=1"
+  },
+  {
+    "name": "espn.u.us",
+    "logo": "https://www.dropbox.com/s/u0lkocd9afa70mo/espnu.png?raw=1"
+  },
+  {
+    "name": "espn.us",
+    "logo": "https://www.dropbox.com/s/h2j0h37vnl0okor/espn.png?raw=1"
+  },
+  {
+    "name": "espn2.us",
+    "logo": "https://www.dropbox.com/s/xmocmu3fpqg06fr/espn2.png?raw=1"
   },
   {
     "name": "eppvjpkd.ss"
