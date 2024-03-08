@@ -16,9 +16,6 @@
     "name": "amc.eastern.us"
   },
   {
-    "name": "animal.planet.us.east.us"
-  },
-  {
     "name": "bloomberg.tv.usa.us"
   },
   {
@@ -120,15 +117,6 @@
   {
     "name": "golf.channel.usa.us",
     "logo": "https://www.dropbox.com/s/7adrduqxfbq6wbm/golf.channel.usa.us.png?raw=1"
-  },
-  {
-    "name": "hallmark.channel.eastern.us"
-  },
-  {
-    "name": "hallmark.drama.us"
-  },
-  {
-    "name": "hallmark.movies.mysteries.eastern.us"
   },
   {
     "name": "hbo.2.eastern.us"
@@ -257,9 +245,6 @@
     "name": "tnt.east.us"
   },
   {
-    "name": "trutv.usa.east.us"
-  },
-  {
     "name": "turner.classic.movies.usa.us"
   },
   {
@@ -271,6 +256,18 @@
   {
     "name": "tsn1.ca",
     "logo": "https://www.dropbox.com/s/cxb73bw45ubrdu3/tsn1.png?raw=1"
+  },
+  {
+    "name": "tsn2.ca"
+  },
+  {
+    "name": "tsn3.ca"
+  },
+  {
+    "name": "tsn4.ca"
+  },
+  {
+    "name": "tsn5.ca"
   },
   {
     "name": "nsw.sydney.fox.sports.506.au",
