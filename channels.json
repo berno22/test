@@ -1,8 +1,5 @@
 [
   {
-    "name": "5.star.max.eastern.us"
-  },
-  {
     "name": "acc.network.us",
     "logo": "https://www.dropbox.com/s/ip23cmrh1u2cjbo/acc.network.us.png?raw=1"
   },
@@ -116,6 +113,9 @@
   },
   {
     "name": "mgm.usa.us"
+  },
+  {
+    "name": "5.star.max.eastern.us"
   },
   {
     "name": "actionmax.eastern.us"
