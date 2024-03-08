@@ -1,9 +1,5 @@
 [
   {
-    "name": "acc.network.us",
-    "logo": "https://www.dropbox.com/s/ip23cmrh1u2cjbo/acc.network.us.png?raw=1"
-  },
-  {
     "name": "ae.us.eastern.us"
   },
   {
@@ -214,6 +210,10 @@
   },
   {
     "name": "eppvjpkd.ss"
+  },
+  {
+    "name": "acc.network.us",
+    "logo": "https://www.dropbox.com/s/ip23cmrh1u2cjbo/acc.network.us.png?raw=1"
   },
   {
     "name": "espn.u.us",
