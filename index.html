@@ -185,7 +185,7 @@
       channelLinks.forEach(link => {
         const onclickValue = link.getAttribute('onclick');
         const channelName = onclickValue.match(/loadChannel\('(.*)'\)/)[1];
-        const srcLink = `https://media.tv4.live/${channelName}.png`;
+        const srcLink = `https://media.starlite.best/${channelName}.png`;
         const img = link.querySelector('img');
         img.src = srcLink;
       });
