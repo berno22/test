@@ -213,6 +213,9 @@
       }
 
       const favorites = ['qkihgakk.ss', 'cnbc.usa.us', 'msnbc.usa.us', 'cnn.us', 'fox.news.us', 'bravo.usa.eastern.us', 'comedy.central.eastern.us'];
+      const logoOverrides = {
+        'cnbc.usa.us': 'https://www.dropbox.com/scl/fi/o1sfh8kztq8ezxn1wceun/CNBC-Logo-1-2140759852.png?rlkey=aefdlrv17kwl4vy8l5t0kyxgt&raw=1'
+      };
 
       async function loadChannels() {
         let channels = await (await fetch('channels.json')).json();
@@ -221,7 +224,7 @@
 
         favFirst.forEach(channel => {
           const name = channel.name;
-          const logo = channel.logo;
+          const logo = logoOverrides[name] || channel.logo || `https://media.starlite.best/${name}.png`;
 
           const divider = document.createElement('div');
           divider.className = 'channel';
@@ -230,7 +233,7 @@
           const img = document.createElement('img');
           img.loading = 'lazy';
           img.alt = name;
-          img.src = logo || `https://media.starlite.best/${name}.png`;
+          img.src = logo;
 
         divider.appendChild(img);
         grid.appendChild(divider);
