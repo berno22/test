@@ -8,11 +8,11 @@
     <script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
     <style>
       :root {
-        --bg: #000000;
-        --surface: #0d0d0d;
-        --text: #f5f5f5;
-        --muted: #6b6b6b;
-        --line: #262626;
+        --bg: #e8e8e8;
+        --surface: #ffffff;
+        --text: #1a1a1a;
+        --muted: #777777;
+        --line: #d0d0d0;
         --accent: #e82127;
       }
       * {
@@ -21,7 +21,7 @@
         box-sizing: border-box;
       }
       html {
-        color-scheme: dark;
+        color-scheme: light;
       }
       body {
         min-height: 100vh;
@@ -127,47 +127,34 @@
       .channel-grid {
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-        gap: 28px;
+        grid-template-columns: repeat(auto-fill, minmax(52px, 1fr));
+        gap: 14px;
         justify-items: center;
       }
       .channel {
         display: flex;
-        flex-direction: column;
         align-items: center;
-        gap: 10px;
         cursor: pointer;
-        opacity: 0.45;
+        opacity: 0.5;
         transition: opacity 0.25s ease;
       }
       .channel:hover {
         opacity: 1;
       }
       .channel img {
-        width: 72px;
-        height: 72px;
+        width: 46px;
+        height: 46px;
         object-fit: contain;
         transition: transform 0.25s ease;
-        filter: grayscale(20%);
+        filter: grayscale(100%);
+        opacity: 0.9;
       }
       .channel.selected {
         opacity: 1;
       }
       .channel.selected img {
-        transform: scale(1.15);
-      }
-      .channel.selected .name {
-        color: var(--text);
-      }
-      .channel .name {
-        font-size: 12px;
-        letter-spacing: 1px;
-        color: var(--muted);
-        text-align: center;
-        max-width: 120px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
+        transform: scale(1.2);
+        filter: grayscale(0%);
       }
 
       .video-js .vjs-big-play-button {
@@ -251,12 +238,7 @@
           img.alt = name;
           img.src = logo || `https://media.starlite.best/${name}.png`;
 
-          const label = document.createElement('span');
-          label.className = 'name';
-          label.textContent = name;
-
           divider.appendChild(img);
-          divider.appendChild(label);
           grid.appendChild(divider);
         });
       }
