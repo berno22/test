@@ -178,10 +178,7 @@
     <main>
       <video id="myPlayer" class="video-js" controls></video>
 
-      <h1 class="section-title" style="margin-top:48px;">Favorites</h1>
-      <div id="favGrid" class="channel-grid"></div>
-
-      <h1 class="section-title" style="margin-top:56px;">Channels</h1>
+      <h1 class="section-title">Channels</h1>
       <div id="channelGrid" class="channel-grid"></div>
     </main>
 
@@ -224,11 +221,14 @@
         loadChannel(name);
       }
 
+      const favorites = ['qkihgakk.ss', 'cnbc.usa.us', 'msnbc.usa.us', 'cnn.us', 'fox.news.us', 'bravo.usa.eastern.us', 'comedy.central.eastern.us'];
+
       async function loadChannels() {
-        const channels = await (await fetch('channels.json')).json();
+        let channels = await (await fetch('channels.json')).json();
+        const favFirst = favorites.map(name => ({ name })).concat(channels.filter(c => !favorites.includes(c.name)));
         const grid = document.getElementById('channelGrid');
 
-        channels.forEach(channel => {
+        favFirst.forEach(channel => {
           const name = channel.name;
           const logo = channel.logo;
 
@@ -246,25 +246,6 @@
         });
       }
 
-      const favorites = ['qkihgakk.ss', 'cnbc.usa.us', 'msnbc.usa.us', 'cnn.us', 'fox.news.us', 'bravo.usa.eastern.us', 'comedy.central.eastern.us'];
-
-      function renderFavorites() {
-        const grid = document.getElementById('favGrid');
-        favorites.forEach(name => {
-          const divider = document.createElement('div');
-          divider.className = 'channel';
-          divider.onclick = () => selectChannel(divider, name);
-
-          const img = document.createElement('img');
-          img.alt = name;
-          img.src = `https://media.starlite.best/${name}.png`;
-
-          divider.appendChild(img);
-          grid.appendChild(divider);
-        });
-      }
-
-      renderFavorites();
       loadChannels();
     </script>
   </body>
