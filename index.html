@@ -1,250 +1,267 @@
-
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starlite Live</title>
     <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet" />
     <script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
     <style>
+      :root {
+        --bg: #000000;
+        --surface: #0d0d0d;
+        --text: #f5f5f5;
+        --muted: #6b6b6b;
+        --line: #262626;
+        --accent: #e82127;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html {
+        color-scheme: dark;
+      }
       body {
-        padding: 25px;
-        background-color: black;
-        color: white;
-        font-size: 20px;
-        font-family: Arial, sans-serif;
+        min-height: 100vh;
+        background: var(--bg);
+        color: var(--text);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        line-height: 1.5;
         display: flex;
-        align-items: center;
-        flex-direction: column
-      }
-      .icon-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 60vw;
-      }
-      #channelContainers {
-        display: flex;
-        justify-content: space-between;
         flex-direction: column;
-        width: 60vw;
-      }
-      h2 Text:first-child {
-        color: white;
-      }
-      h2 Text:last-child {
-        display: none;
-        font-size: 35px;
-        color: red;
-      }
-      #bullet {
-        animation: blink 2s infinite;
-      }
-      @keyframes blink {
-        50% {
-          opacity: 0;
-        }
-      }
-      img {
-        width: 50px;
-        transition: width 0.4s;
-        opacity: 0.5;
-      }
-      img.selected {
-        width: 100px;
-        opacity: 1;
-      }
-      .link {
-        color: white;
-        text-decoration: none;
-        line-height: 1.8;
-        opacity: 0.4;
-      }
-      .my-heading {
-        text-align: center;
-      }
-      #myPlayer {
-        display: none;
-        width: 60vw;
-        height: 34vw;
-      }
-      #closeFrame {
-        display: none;
-      }
-      .video-js .vjs-control-bar {
-        /*height: 0px;*/
-        font-size: 20px;
+        align-items: center;
       }
       @media(min-width:700px) and (max-width:840px){
         html{zoom:0.6}
+      }
+
+      header {
+        width: 100%;
+        padding: 28px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .brand {
+        font-size: 20px;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        font-weight: 500;
+      }
+      .brand .dot {
+        color: var(--accent);
+      }
+      header .right {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+      }
+      .all-media {
+        color: var(--muted);
+        text-decoration: none;
+        font-size: 13px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        transition: color 0.2s;
+      }
+      .all-media:hover {
+        color: var(--text);
+      }
+      .live-badge {
+        display: none;
+        font-size: 13px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: var(--accent);
+      }
+      .live-badge .dot {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: var(--accent);
+        margin-right: 8px;
+        animation: blink 2s infinite;
+      }
+      @keyframes blink {
+        50% { opacity: 0; }
+      }
+
+      main {
+        width: 100%;
+        max-width: 1200px;
+        padding: 20px 40px 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      #myPlayer {
+        display: none;
+        width: min(960px, 60vw);
+        aspect-ratio: 16 / 9;
+        background: #000;
+        border-radius: 12px;
+        overflow: hidden;
+        margin-bottom: 48px;
+      }
+      #myPlayer.vjs-fluid {
+        display: block;
+      }
+      .video-js .vjs-control-bar {
+        font-size: 16px;
+      }
+
+      .section-title {
+        font-size: 13px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        color: var(--muted);
+        margin-bottom: 28px;
+      }
+
+      .channel-grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        gap: 28px;
+        justify-items: center;
+      }
+      .channel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+        opacity: 0.45;
+        transition: opacity 0.25s ease;
+      }
+      .channel:hover {
+        opacity: 1;
+      }
+      .channel img {
+        width: 72px;
+        height: 72px;
+        object-fit: contain;
+        transition: transform 0.25s ease;
+        filter: grayscale(20%);
+      }
+      .channel.selected {
+        opacity: 1;
+      }
+      .channel.selected img {
+        transform: scale(1.15);
+      }
+      .channel.selected .name {
+        color: var(--text);
+      }
+      .channel .name {
+        font-size: 12px;
+        letter-spacing: 1px;
+        color: var(--muted);
+        text-align: center;
+        max-width: 120px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .video-js .vjs-big-play-button {
+        border: none;
+        line-height: 1;
+        height: 1.5em;
+        border-radius: 100%;
       }
     </style>
   </head>
   <body>
 
-    <div class="icon-container">
-      <a style="color:#33FF6E;" onclick="loadChannel('qkihgakk.ss')">
-        <img src="" width="50" onclick="selectImage(this)">
-      </a>
-      &nbsp;
-      &nbsp;
-      <a style="color:#33FF6E;" onclick="loadChannel('cnbc.usa.us')">
-        <img src="" width="50" onclick="selectImage(this)">
-      </a>
-      &nbsp;
-      &nbsp;
-      <a style="color:#33FF6E;" onclick="loadChannel('msnbc.usa.us')">
-        <img src="" width="50" onclick="selectImage(this)">
-      </a>
-      &nbsp;
-      &nbsp;
-      <a style="color:#33FF6E;" onclick="loadChannel('cnn.us')">
-        <img src="" width="50" onclick="selectImage(this)">
-      </a>
-      &nbsp;
-      &nbsp;
-      <a style="color:#33FF6E;" onclick="loadChannel('fox.news.us')">
-        <img src="" width="50" onclick="selectImage(this)">
-      </a>
-      &nbsp;
-      &nbsp;
-      <a style="color:#33FF6E;" onclick="loadChannel('bravo.usa.eastern.us')">
-        <img src="" width="50" onclick="selectImage(this)">
-      </a>
-      &nbsp;
-      &nbsp;
-      <a style="color:#33FF6E;" onclick="loadChannel('comedy.central.eastern.us')">
-        <img src="" width="50" onclick="selectImage(this)">
-      </a>
-    </div>
+    <header>
+      <div class="brand">Starlite<span class="dot">&bull;</span></div>
+      <div class="right">
+        <a class="all-media" href="https://berno22.github.io/">All Media</a>
+        <span id="liveBadge" class="live-badge"><span class="dot"></span>Live</span>
+      </div>
+    </header>
 
-    <h2 class="my-heading">
-      <a class="link" href="https://berno22.github.io/">All Media</a>
-      <br>
-      <Text id="closeFrame" onclick="closeFrame()">  Live</Text>
-      <Text id="bullet"> &bull;</Text>
-    </h2>
+    <main>
+      <video id="myPlayer" class="video-js" controls></video>
 
-    <video id="myPlayer" class="video-js" controls></video>
-    
-    <br>
-    <br>
-    
-    <div id="channelContainers">
-      <!-- The channel containers will be added dynamically here -->
-    </div>
+      <h1 class="section-title">Channels</h1>
+      <div id="channelGrid" class="channel-grid"></div>
+    </main>
 
     <script>
-      var selectedImage = null;
+      var selected = null;
       var baseUrl1 = 'https://starlite.';
       var baseUrl2 = 'best/api/stream/';
       var baseUrl3 = 'ddo';
       var baseUrl4 = '514';
       var baseUrl5 = '2011';
       var baseUrl6 = '/2';
-      var baseUrl7 ='+{KwUO8:5$41m';
+      var baseUrl7 = '+{KwUO8:5$41m';
       var baseUrl8 = '/livetv.epg/';
       var player = videojs('myPlayer');
 
-      function selectImage(img) {
-        if (selectedImage) {
-          selectedImage.classList.remove("selected");
-        }
-        img.classList.add("selected");
-        selectedImage = img;
-      }
-
       function loadChannel(channel) {
         var url = baseUrl1 + baseUrl2 + baseUrl3 + baseUrl4 + baseUrl5 + baseUrl6 + baseUrl7 + baseUrl8 + channel + '.m3u8';
-        if (url) {
-          player.src({
-            src: url,
-            type: 'application/x-mpegURL'
-          });
-          player.play();
-          document.getElementById("myPlayer").style.display = "block";
-          document.getElementById("bullet").style.display = "inline";
-          document.getElementById("closeFrame").style.display = "inline";
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-        } else {
-          player.pause();
-          document.getElementById("myPlayer").style.display = "none";
-          document.getElementById("bullet").style.display = "none";
-        }
+        var video = document.getElementById("myPlayer");
+        video.style.display = "block";
+        video.classList.add("vjs-fluid");
+        document.getElementById("liveBadge").style.display = "inline-block";
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        player.src({ src: url, type: 'application/x-mpegURL' });
+        player.play();
       }
 
       function closeFrame() {
+        var video = document.getElementById("myPlayer");
         player.pause();
         player.src("");
-        document.getElementById("myPlayer").style.display = "none";
-        document.getElementById("bullet").style.display = "none";
-        document.getElementById("closeFrame").style.display = "none";
-        if (selectedImage) {
-          selectedImage.classList.remove("selected");
-          selectedImage = null;
-        }
+        video.style.display = "none";
+        video.classList.remove("vjs-fluid");
+        document.getElementById("liveBadge").style.display = "none";
       }
 
-      const channelLinks = document.querySelectorAll('.icon-container a');
+      function selectChannel(el, name) {
+        if (selected) selected.classList.remove("selected");
+        selected = el;
+        el.classList.add("selected");
+        loadChannel(name);
+      }
 
-      channelLinks.forEach(link => {
-        const onclickValue = link.getAttribute('onclick');
-        const channelName = onclickValue.match(/loadChannel\('(.*)'\)/)[1];
-        const srcLink = `https://media.starlite.best/${channelName}.png`;
-        const img = link.querySelector('img');
-        img.src = srcLink;
-      });
-
-          // Load the channels JSON data and split into chunks of 12
-          async function loadChannels() {
+      async function loadChannels() {
         const channels = await (await fetch('channels.json')).json();
-        const channelChunks = chunkArray(channels, 10);
-        const channelContainers = document.getElementById('channelContainers');
+        const grid = document.getElementById('channelGrid');
 
-        channelChunks.forEach(channelChunk => {
-          const channelContainer = document.createElement('div');
-          channelContainer.classList.add('icon-container');
+        channels.forEach(channel => {
+          const name = channel.name;
+          const logo = channel.logo;
 
-          channelChunk.forEach(channel => {
-            const name = channel.name;
-            const logo = channel.logo;
+          const divider = document.createElement('div');
+          divider.className = 'channel';
+          divider.onclick = () => selectChannel(divider, name);
 
-            const channelLink = document.createElement('a');
-            channelLink.style.color = '#33FF6E';
-            channelLink.onclick = () => {};
+          const img = document.createElement('img');
+          img.loading = 'lazy';
+          img.alt = name;
+          img.src = logo || `https://media.starlite.best/${name}.png`;
 
-            const channelImage = document.createElement('img');
-            channelImage.width = '50';
-            if (logo) {
-              channelImage.src = logo;
-            } else {
-              channelImage.src = `https://media.starlite.best/${name}.png`;
-            }
-            channelImage.onclick = () => {
-              loadChannel(name);
-            };
+          const label = document.createElement('span');
+          label.className = 'name';
+          label.textContent = name;
 
-            channelLink.appendChild(channelImage);
-            channelContainer.appendChild(channelLink);
-
-            const spacer = document.createTextNode('\u00A0\u00A0');
-            channelContainer.appendChild(spacer);
-          });
-
-          channelContainers.appendChild(channelContainer);
+          divider.appendChild(img);
+          divider.appendChild(label);
+          grid.appendChild(divider);
         });
       }
 
-      // Helper function to chunk an array into smaller arrays
-      function chunkArray(array, chunkSize) {
-        const chunks = [];
-        for (let i = 0; i < array.length; i += chunkSize) {
-          chunks.push(array.slice(i, i + chunkSize));
-        }
-        return chunks;
-      }
-
-      // Call the loadChannels function to load and display the channels
       loadChannels();
     </script>
   </body>
 </html>
-<!-- https://github.com/videojs/themes/blob/master/city/index.css -->
