@@ -1,5 +1,4 @@
 const CACHE_NAME = 'starlite-logos-v2';
-const LOGO_HOSTS = ['media.starlite.best', 'dropbox.com', 'dropboxusercontent.com'];
 
 self.addEventListener('install', event => {
   self.skipWaiting();
@@ -19,7 +18,7 @@ self.addEventListener('message', event => {
     event.waitUntil(
       caches.open(CACHE_NAME).then(cache =>
         Promise.all(urls.map(url =>
-          fetch(url, { mode: 'cors' })
+          fetch(url)
             .then(res => { if (res.ok) return cache.put(url, res); })
             .catch(() => {})
         ))
@@ -30,11 +29,7 @@ self.addEventListener('message', event => {
 
 self.addEventListener('fetch', event => {
   const url = event.request.url;
-  let isLogo = false;
-  for (const host of LOGO_HOSTS) {
-    if (url.includes(host)) { isLogo = true; break; }
-  }
-  if (isLogo) {
+  if (url.includes('/logos/')) {
     event.respondWith(
       caches.match(event.request).then(cached => {
         if (cached) return cached;
