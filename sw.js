@@ -1,6 +1,5 @@
-const CACHE_NAME = 'starlite-logos-v1';
-const LOGO_HOSTS = ['media.starlite.best'];
-const NAV_TIMEOUT = 2000;
+const CACHE_NAME = 'starlite-logos-v2';
+const LOGO_HOSTS = ['media.starlite.best', 'dropbox.com', 'dropboxusercontent.com'];
 
 self.addEventListener('install', event => {
   self.skipWaiting();
@@ -12,6 +11,21 @@ self.addEventListener('activate', event => {
       Promise.all(keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k)))
     ).then(() => self.clients.claim())
   );
+});
+
+self.addEventListener('message', event => {
+  if (event.data && event.data.type === 'CACHE_LOGOS') {
+    const urls = event.data.urls;
+    event.waitUntil(
+      caches.open(CACHE_NAME).then(cache =>
+        Promise.all(urls.map(url =>
+          fetch(url, { mode: 'cors' })
+            .then(res => { if (res.ok) return cache.put(url, res); })
+            .catch(() => {})
+        ))
+      )
+    );
+  }
 });
 
 self.addEventListener('fetch', event => {

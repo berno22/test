@@ -222,23 +222,28 @@
         let channels = await (await fetch('channels.json')).json();
         const favFirst = favorites.map(name => ({ name })).concat(channels.filter(c => !favorites.includes(c.name)));
         const grid = document.getElementById('channelGrid');
+        const logoUrls = [];
 
         favFirst.forEach(channel => {
           const name = channel.name;
           const logo = logoOverrides[name] || channel.logo || `https://media.starlite.best/${name}.png`;
+          logoUrls.push(logo);
 
           const divider = document.createElement('div');
           divider.className = 'channel';
           divider.onclick = () => selectChannel(divider, name);
 
           const img = document.createElement('img');
-          img.loading = 'lazy';
           img.alt = name;
           img.src = logo;
 
         divider.appendChild(img);
         grid.appendChild(divider);
         });
+
+        if ('serviceWorker' in navigator && navigator.serviceWorker.controller) {
+          navigator.serviceWorker.controller.postMessage({ type: 'CACHE_LOGOS', urls: logoUrls });
+        }
       }
 
       loadChannels();
