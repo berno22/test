@@ -46,15 +46,6 @@
         align-items: center;
         justify-content: space-between;
       }
-      .brand {
-        font-size: 20px;
-        letter-spacing: 6px;
-        text-transform: uppercase;
-        font-weight: 500;
-      }
-      .brand .dot {
-        color: var(--accent);
-      }
       header .right {
         display: flex;
         align-items: center;
@@ -146,7 +137,7 @@
         height: 46px;
         object-fit: contain;
         transition: transform 0.25s ease;
-        filter: grayscale(100%) brightness(0.45) contrast(1.2);
+        filter: grayscale(100%) brightness(0.3) contrast(1.2);
         opacity: 0.9;
       }
       .channel.selected {
@@ -168,9 +159,8 @@
   <body>
 
     <header>
-      <div class="brand">Starlite<span class="dot">&bull;</span></div>
+      <a class="all-media" href="https://berno22.github.io/">All Media</a>
       <div class="right">
-        <a class="all-media" href="https://berno22.github.io/">All Media</a>
         <span id="liveBadge" class="live-badge"><span class="dot"></span>Live</span>
       </div>
     </header>
@@ -247,6 +237,10 @@
       }
 
       loadChannels();
+
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js');
+      }
     </script>
   </body>
 </html>
