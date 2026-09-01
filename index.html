@@ -187,7 +187,8 @@
       var player = videojs('myPlayer');
 
       function loadChannel(channel) {
-        var url = baseUrl1 + baseUrl2 + baseUrl3 + baseUrl4 + baseUrl5 + baseUrl6 + baseUrl7 + baseUrl8 + channel + '.m3u8';
+        var base = baseUrl1 + baseUrl2 + baseUrl3 + baseUrl4 + baseUrl5 + baseUrl6 + baseUrl7 + baseUrl8;
+        var url = streamOverrides[channel] || base + channel + '.m3u8';
         var video = document.getElementById("myPlayer");
         video.style.display = "block";
         video.classList.add("vjs-fluid");
@@ -213,7 +214,11 @@
         loadChannel(name);
       }
 
-      const favorites = ['qkihgakk.ss', 'cnbc.usa.us', 'msnbc.usa.us', 'cnn.us', 'fox.news.us', 'bravo.usa.eastern.us', 'comedy.central.eastern.us'];
+      const streamOverrides = {
+        'F1TV': 'https://amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv/playlist.m3u8'
+      };
+
+      const favorites = ['F1TV', 'qkihgakk.ss', 'cnbc.usa.us', 'msnbc.usa.us', 'cnn.us', 'fox.news.us', 'bravo.usa.eastern.us', 'comedy.central.eastern.us'];
 
       async function loadChannels() {
         let channels = await (await fetch('channels.json')).json();
